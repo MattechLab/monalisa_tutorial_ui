@@ -29,8 +29,8 @@
 
 % Option A (Recommended):
 % Set your dataset directory here.
-baseFolder = '/path/to/your/datasets/';
-
+% baseFolder = '/path/to/your/datasets/';
+baseFolder = '/Users/cag/Documents/Dataset/datasets/251219/';
 % Option B:
 % Leave empty to browse manually each time.
 % baseFolder = [];
@@ -50,7 +50,7 @@ baseFolder = '/path/to/your/datasets/';
 %   - Detecting severe artifacts
 % -------------------------------------------------------------------------
 
-matrix_size = 64;  % Reconstruction grid size for quick inspection
+matrix_size = 48;  % Reconstruction grid size for quick inspection
 
 [xrms, x0] = check_orient_xrms(baseFolder, matrix_size);
 
@@ -70,7 +70,7 @@ bmImage(x0);
 % It also suggests a reconstruction directory (reconDir).
 % -------------------------------------------------------------------------
 
-[C1, reconDir, ~, ~, ~] = coilsense_script(baseFolder);
+[C, reconDir, ~, ~, ~] = coilsense_script(baseFolder);
 
 % If preferred, you may override reconDir manually:
 % reconDir = 'path/to/your/result/reconDir/';
@@ -91,7 +91,7 @@ CfileName = 'C.mat';
 CfilePath = fullfile(saveCDir, CfileName);
 
 % Save as variable C1 (recommended to keep consistent naming)
-save(CfilePath, 'C1');
+save(CfilePath, 'C');
 
 disp(' ');
 disp('====================================================');
@@ -129,7 +129,7 @@ mitosius_nobin_ui(baseFolder);
 %   x0  : Initial reconstruction (before regularization)
 % -------------------------------------------------------------------------
 
-flagCS = 0;   % Set to 1 to enable compressed sensing
+flagCS = 1;   % Set to 1 to enable compressed sensing
 
 [x, x0] = recon_nobin_ui([], [], flagCS);
 
