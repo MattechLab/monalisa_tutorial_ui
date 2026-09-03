@@ -9,12 +9,6 @@ This repository provides a structured, step-by-step workflow for:
 - Gridded reconstruction  
 - Optional compressed sensing reconstruction  
 
-It is designed for:
-
-- 🎓 New lab members  
-- 🧠 Researchers learning MONALISA  
-- 🧪 Educational demonstrations  
-- 🔬 Rapid reconstruction testing  
 
 ---
 
@@ -41,9 +35,9 @@ This repository focuses on **guided usage via UI**, not core framework developme
 
 ## 1️⃣ Install Dependencies
 
-- MONALISA  
-- Pulseq  
-- mapVBVD  
+- [MONALISA installation guide](https://mattechlab.github.io/monalisa/1-2_installation.html)
+- [Pulseq repository](https://github.com/pulseq/pulseq)
+- [mapVBVD repository](https://github.com/jaimebarran/mapVBVD)
 
 Example:
 
