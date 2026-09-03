@@ -24,13 +24,13 @@
 %
 % =========================================================================
 
-
+close all; clc; clear;
 %% === 1. Define Dataset Base Folder ======================================
 
 % Option A (Recommended):
 % Set your dataset directory here.
-% baseFolder = '/path/to/your/datasets/';
-baseFolder = '/Users/cag/Documents/Dataset/datasets/251219/';
+baseFolder = '/path/to/your/datasets/';
+
 % Option B:
 % Leave empty to browse manually each time.
 % baseFolder = [];
