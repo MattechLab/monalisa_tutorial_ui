@@ -1,6 +1,6 @@
 # 📦 monalisa_tutorial_ui
 
-User-interface-based educational tutorial pipeline for **MONALISA** non-Cartesian MRI reconstruction.
+An educational tutorial pipeline for **MONALISA** non-Cartesian MRI reconstruction.
 
 This repository provides a structured, step-by-step workflow for:
 
