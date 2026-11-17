@@ -1,0 +1,44 @@
+{
+  "status": "cleanup_complete",
+  "removed_roots": [
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031",
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973",
+    "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov"
+  ],
+  "full_scanner_reconstruction_MATs_removed": 24,
+  "retained_nifti_volumes": 12,
+  "retained_sigmas": [
+    0.61,
+    0.32,
+    0.2,
+    0.1
+  ],
+  "removed_sigmas": [
+    0.5,
+    0.4,
+    0.27,
+    0.15
+  ],
+  "removed_file_count": 394,
+  "removed_content_bytes": 8847073290,
+  "original_external_results": {
+    "logical_bytes": 8579491543,
+    "allocated_bytes": 8932818944
+  },
+  "current_external_results": {
+    "logical_bytes": 283210758,
+    "allocated_bytes": 575668224,
+    "files": 304
+  },
+  "compact_scanner_batch": {
+    "logical_bytes": 178648655,
+    "allocated_bytes": 398458880,
+    "files": 223
+  },
+  "normalized_nifti_bytes": 54743717,
+  "protected_scanner_and_Koma_inputs_unchanged": true,
+  "selected_Koma_batch_and_fixed_phantom_preserved": true
+}

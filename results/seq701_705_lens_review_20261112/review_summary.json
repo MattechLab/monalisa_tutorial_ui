@@ -1,0 +1,108 @@
+{
+  "status": "exploratory descriptive analysis completed",
+  "reported_flip_angles_deg": {
+    "701": 12,
+    "702": 12,
+    "703": 16,
+    "704": 14,
+    "705": 20
+  },
+  "FA_correction_basis": "User instructed doubling sequence-file rf_flip_deg on 12 November 2026",
+  "reviewed_native_ranges": {
+    "axial_z_mm": [
+      -30,
+      -27,
+      -24,
+      -21,
+      -18,
+      -15,
+      -12
+    ],
+    "positive_eye_sagittal_x_mm": [
+      28,
+      31,
+      34,
+      37,
+      40,
+      43
+    ],
+    "negative_eye_sagittal_x_mm": [
+      -40,
+      -37,
+      -34,
+      -31,
+      -28,
+      -25
+    ],
+    "coronal_y_mm": [
+      -89,
+      -86,
+      -83,
+      -80,
+      -77
+    ]
+  },
+  "source_data_modified": false,
+  "registration": false,
+  "lens_localizations": "Approximate manually selected representative lens regions; no validated segmentation, displacement measurement, or lens contrast estimate",
+  "rejected_method": "Darkest-focus search sampled boundary regions in some scans; candidate-focus values are diagnostic only and excluded from conclusions",
+  "fine_scale_relative_variation_percent": [
+    {
+      "eye": "positive_x",
+      "sequence": 701,
+      "value": 4.586111263999283
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 702,
+      "value": 4.784617723801096
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 704,
+      "value": 5.109914695435868
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 703,
+      "value": 5.558917692923701
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 705,
+      "value": 6.956030855715432
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 701,
+      "value": 4.760098483406432
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 702,
+      "value": 4.98823877102666
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 704,
+      "value": 5.003856766362133
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 703,
+      "value": 5.830481740070279
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 705,
+      "value": 7.046911462664575
+    }
+  ],
+  "sensitivity_settings_with_705_highest": 18,
+  "sensitivity_settings_total": 18,
+  "limitations": [
+    "Spatial variation is not a calibrated noise or SNR measurement.",
+    "No repeat scans, B1/B0 mapping, or within-acquisition eye-motion measurement used.",
+    "No causal attribution of the nonmonotonic lens delineation to flip angle."
+  ]
+}

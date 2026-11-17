@@ -35,6 +35,7 @@
 
 # compiled cpp in matlab
 *.mexmaca64
+*.mexmaci64
 *.mexw64
 *.mexa64
 
@@ -63,3 +64,7 @@
 *.mp3
 *.png*.mat
 archive/**/tmp_output/
+
+# Regenerated MEX runtime cache and acquisition results (visible folders)
+/runtime_cache/mex/
+/outputs/

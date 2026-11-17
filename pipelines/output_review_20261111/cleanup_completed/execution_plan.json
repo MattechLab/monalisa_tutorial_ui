@@ -1,0 +1,111 @@
+{
+  "retainedRoot": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111",
+  "jobs": [
+    {
+      "sequence": 712,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p61",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq712.mat"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p32",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq712.mat"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p2",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq712.mat"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p1",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq712.mat"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p61",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq713.mat"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p32",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq713.mat"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p2",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq713.mat"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p1",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq713.mat"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p61",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq714.mat"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p32",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq714.mat"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p2",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq714.mat"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/reconstruction.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p1",
+      "encoding": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/encoding/seq714.mat"
+    }
+  ],
+  "keepSigmas": [
+    0.61,
+    0.32,
+    0.2,
+    0.1
+  ],
+  "removeSigmas": [
+    0.5,
+    0.4,
+    0.27,
+    0.15
+  ],
+  "sourceResultRoots": [
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031",
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973"
+  ],
+  "discardOtherRoots": [
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov"
+  ],
+  "authorized": "User requested cleanup of B,C,D,H; keep only sigma .61,.32,.20,.10 for seq712-714; replace retained magnitude MATs with normalized NIfTI."
+}

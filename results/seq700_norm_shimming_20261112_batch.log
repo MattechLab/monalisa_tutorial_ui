@@ -1,0 +1,482 @@
+CHECKCODE MSNU line 49: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+CHECKCODE MSNU line 63: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+MEX source: /Users/cag/forclone/monalisa/src/sparseMat/mex/bmSparseMat_vec/bmSparseMat_cC_oBlock_omp/bmSparseMat_cC_oBlock_omp_mex.mexmaca64
+MEX cache:  /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a/bmSparseMat_cC_oBlock_omp_mex.mexmaca64
+MEX source: /Users/cag/forclone/monalisa/src/image3/mex/bmImLaplaceEquationSolver3_omp/bmImLaplaceEquationSolver3_omp_mex.mexmaca64
+MEX cache:  /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a/bmImLaplaceEquationSolver3_omp_mex.mexmaca64
+Default paths: /Users/cag/forclone/monalisa_tutorial_ui/tutorial_config_7TTerraVE12U.m (edit this file to change future runs)
+    monalisaRoot: '/Users/cag/forclone/monalisa'
+      pulseqRoot: '/Users/cag/forclone/pulseq'
+      baseFolder: '/Volumes/Extreme SSD/261110'
+      outputRoot: '/Volumes/Extreme SSD/261110/recon_results/isotropic_scanner'
+    mexCacheRoot: '/Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex'
+      sourceFile: '/Users/cag/forclone/monalisa_tutorial_ui/tutorial_config_7TTerraVE12U.m'
+
+MEX cache: /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a
+Missing cache files are recreated by this setup from MONALISA source MEXs.
+MEX runtime: /Applications/MATLAB_R2025a.app/bin/maca64/libomp.dylib
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  1037.0 MB read in    2 s
+Pulseq signature in TWIX:       e161020c17c6e1fa25b518e792962838
+Pulseq [SIGNATURE] Hash:        e161020c17c6e1fa25b518e792962838 (matches TWIX: 1)
+Recomputed sequence-content MD5: e161020c17c6e1fa25b518e792962838
+Sequence grouping: nSeg=44, nShot=199; verified against 8756 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  1037.0 MB read in    1 s
+Pulseq signature in TWIX:       339504262f15ff146978eb622379604a
+Pulseq [SIGNATURE] Hash:        339504262f15ff146978eb622379604a (matches TWIX: 1)
+Recomputed sequence-content MD5: 339504262f15ff146978eb622379604a
+Sequence grouping: nSeg=44, nShot=199; verified against 8756 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  1037.0 MB read in    1 s
+Pulseq signature in TWIX:       e161020c17c6e1fa25b518e792962838
+Pulseq [SIGNATURE] Hash:        e161020c17c6e1fa25b518e792962838 (matches TWIX: 1)
+Recomputed sequence-content MD5: e161020c17c6e1fa25b518e792962838
+Sequence grouping: nSeg=44, nShot=199; verified against 8756 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=199, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 66)
+In run_isotropic_scanner (line 53)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [1864172 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_gre_norm_shimming coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_norm_shimming_20261112_094850_901/seq700_gre_norm_shimming/xrms_normalized.nii.gz; source MAT still intact
+seq700_gre_norm_shimming VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_norm_shimming_20261112_094850_901/seq700_gre_norm_shimming/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  1037.0 MB read in    1 s
+Pulseq signature in TWIX:       339504262f15ff146978eb622379604a
+Pulseq [SIGNATURE] Hash:        339504262f15ff146978eb622379604a (matches TWIX: 1)
+Recomputed sequence-content MD5: 339504262f15ff146978eb622379604a
+Sequence grouping: nSeg=44, nShot=199; verified against 8756 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=199, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 66)
+In run_isotropic_scanner (line 53)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [1864172 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq700_libre_norm_shimming coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_norm_shimming_20261112_094850_901/seq700_libre_norm_shimming/xrms_normalized.nii.gz; source MAT still intact
+seq700_libre_norm_shimming VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_norm_shimming_20261112_094850_901/seq700_libre_norm_shimming/xrms_normalized.nii.gz
+ISOTROPIC SCANNER BATCH COMPLETE: /Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_norm_shimming_20261112_094850_901

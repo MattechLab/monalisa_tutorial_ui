@@ -1,0 +1,105 @@
+{
+  "status": "descriptive comparison; no independent repeat acquisitions or voxelwise inference",
+  "band_slab_definition": "Data-selected minimum LIBRE median-ratio x, then x +/-2 mm and central yz disk radius 40 mm",
+  "band_centre_x_mm": 42,
+  "processing_match_within_each_sequence": true,
+  "raw_scale_restored": true,
+  "registration": false,
+  "headers": {
+    "gre_normal": {
+      "sTXSPEC.asNucleusInfo[0].lFrequency": 297191177.0,
+      "sTXSPEC.asNucleusInfo[0].flReferenceAmplitude": 201.601821899,
+      "sTXSPEC.asNucleusInfo[0].flAmplitudeCorrection": 1.0,
+      "sTXSPEC.aRFPULSE[0].flAmplitude": 22.400220871,
+      "sAdjData.uiAdjShimMode": 2.0,
+      "sGRADSPEC.asGPAData[0].lOffsetX": 273.0,
+      "sGRADSPEC.asGPAData[0].lOffsetY": -1932.0,
+      "sGRADSPEC.asGPAData[0].lOffsetZ": 229.0,
+      "sGRADSPEC.alShimCurrent[0]": -113.0,
+      "sGRADSPEC.alShimCurrent[1]": -81.0,
+      "sGRADSPEC.alShimCurrent[2]": -232.0,
+      "sGRADSPEC.alShimCurrent[3]": 130.0,
+      "sGRADSPEC.alShimCurrent[4]": -57.0,
+      "sGRADSPEC.alShimCurrent[5]": 1485.0,
+      "sGRADSPEC.alShimCurrent[6]": 35.0,
+      "sGRADSPEC.alShimCurrent[7]": -346.0,
+      "sGRADSPEC.alShimCurrent[8]": -411.0
+    },
+    "gre_linear": {
+      "sTXSPEC.asNucleusInfo[0].lFrequency": 297191221.0,
+      "sTXSPEC.asNucleusInfo[0].flReferenceAmplitude": 201.601821899,
+      "sTXSPEC.asNucleusInfo[0].flAmplitudeCorrection": 1.0,
+      "sTXSPEC.aRFPULSE[0].flAmplitude": 22.400220871,
+      "sAdjData.uiAdjShimMode": 2.0,
+      "sGRADSPEC.asGPAData[0].lOffsetX": 3759.0,
+      "sGRADSPEC.asGPAData[0].lOffsetY": -1932.0,
+      "sGRADSPEC.asGPAData[0].lOffsetZ": 229.0,
+      "sGRADSPEC.alShimCurrent[0]": -113.0,
+      "sGRADSPEC.alShimCurrent[1]": -81.0,
+      "sGRADSPEC.alShimCurrent[2]": -232.0,
+      "sGRADSPEC.alShimCurrent[3]": 130.0,
+      "sGRADSPEC.alShimCurrent[4]": -57.0,
+      "sGRADSPEC.alShimCurrent[5]": 1485.0,
+      "sGRADSPEC.alShimCurrent[6]": 35.0,
+      "sGRADSPEC.alShimCurrent[7]": -346.0,
+      "sGRADSPEC.alShimCurrent[8]": -411.0
+    },
+    "libre_normal": {
+      "sTXSPEC.asNucleusInfo[0].lFrequency": 297191177.0,
+      "sTXSPEC.asNucleusInfo[0].flReferenceAmplitude": 201.601821899,
+      "sTXSPEC.asNucleusInfo[0].flAmplitudeCorrection": 1.0,
+      "sTXSPEC.aRFPULSE[0].flAmplitude": 13.4401082993,
+      "sAdjData.uiAdjShimMode": 2.0,
+      "sGRADSPEC.asGPAData[0].lOffsetX": 273.0,
+      "sGRADSPEC.asGPAData[0].lOffsetY": -1932.0,
+      "sGRADSPEC.asGPAData[0].lOffsetZ": 229.0,
+      "sGRADSPEC.alShimCurrent[0]": -113.0,
+      "sGRADSPEC.alShimCurrent[1]": -81.0,
+      "sGRADSPEC.alShimCurrent[2]": -232.0,
+      "sGRADSPEC.alShimCurrent[3]": 130.0,
+      "sGRADSPEC.alShimCurrent[4]": -57.0,
+      "sGRADSPEC.alShimCurrent[5]": 1485.0,
+      "sGRADSPEC.alShimCurrent[6]": 35.0,
+      "sGRADSPEC.alShimCurrent[7]": -346.0,
+      "sGRADSPEC.alShimCurrent[8]": -411.0
+    },
+    "libre_linear": {
+      "sTXSPEC.asNucleusInfo[0].lFrequency": 297191221.0,
+      "sTXSPEC.asNucleusInfo[0].flReferenceAmplitude": 201.601821899,
+      "sTXSPEC.asNucleusInfo[0].flAmplitudeCorrection": 1.0,
+      "sTXSPEC.aRFPULSE[0].flAmplitude": 13.4401082993,
+      "sAdjData.uiAdjShimMode": 2.0,
+      "sGRADSPEC.asGPAData[0].lOffsetX": 3759.0,
+      "sGRADSPEC.asGPAData[0].lOffsetY": -1932.0,
+      "sGRADSPEC.asGPAData[0].lOffsetZ": 229.0,
+      "sGRADSPEC.alShimCurrent[0]": -113.0,
+      "sGRADSPEC.alShimCurrent[1]": -81.0,
+      "sGRADSPEC.alShimCurrent[2]": -232.0,
+      "sGRADSPEC.alShimCurrent[3]": 130.0,
+      "sGRADSPEC.alShimCurrent[4]": -57.0,
+      "sGRADSPEC.alShimCurrent[5]": 1485.0,
+      "sGRADSPEC.alShimCurrent[6]": 35.0,
+      "sGRADSPEC.alShimCurrent[7]": -346.0,
+      "sGRADSPEC.alShimCurrent[8]": -411.0
+    }
+  },
+  "summary": {
+    "gre": {
+      "band_slab_median_linear_over_normal": 0.8967700004577637,
+      "band_slab_P10_P90": [
+        0.6943339586257935,
+        1.1703951120376588
+      ],
+      "central_cylinder_median_linear_over_normal": 0.9935027956962585
+    },
+    "libre": {
+      "band_slab_median_linear_over_normal": 0.063656285405159,
+      "band_slab_P10_P90": [
+        0.04368856474757195,
+        0.09166314601898194
+      ],
+      "central_cylinder_median_linear_over_normal": 0.8496598601341248
+    }
+  },
+  "no_B0_map": "Recorded shim offsets are scanner units, not a measured spatial frequency map."
+}

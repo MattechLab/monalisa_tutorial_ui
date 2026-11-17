@@ -1,0 +1,72 @@
+{
+  "method": "approximate manual positions selected by visual review of native orbital atlases",
+  "positions_mm": {
+    "positive_x": {
+      "701": [
+        40,
+        -79,
+        -23
+      ],
+      "702": [
+        39,
+        -79,
+        -22
+      ],
+      "704": [
+        36,
+        -82,
+        -23
+      ],
+      "703": [
+        36,
+        -82,
+        -22
+      ],
+      "705": [
+        36,
+        -82,
+        -23
+      ]
+    },
+    "negative_x": {
+      "701": [
+        -32,
+        -85,
+        -24
+      ],
+      "702": [
+        -32,
+        -85,
+        -24
+      ],
+      "704": [
+        -33,
+        -85,
+        -24
+      ],
+      "703": [
+        -32,
+        -85,
+        -23
+      ],
+      "705": [
+        -33,
+        -85,
+        -24
+      ]
+    }
+  },
+  "reported_FA_deg": {
+    "701": 12,
+    "702": 12,
+    "704": 14,
+    "703": 16,
+    "705": 20
+  },
+  "sequence_file_FA_factor": 2,
+  "limitations": [
+    "These are representative regions, not validated lens centres or masks.",
+    "No lens displacement or gaze angle is inferred from these points.",
+    "Automatic darkest-focus searches reached the anterior/inferior boundary in some scans and were rejected for lens-contrast quantification."
+  ]
+}

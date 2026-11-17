@@ -1,0 +1,45 @@
+{
+  "simulation": "Native Pulseq mr.simRf on the first actual exported RF pulse",
+  "subpulse_centre_separation_us": 530.0000000000001,
+  "simple_interference_null_magnitude_Hz": 943.3962264150941,
+  "native_simulation_nulls": [
+    {
+      "frequency_Hz": -940.168092444575,
+      "Mxy_relative_to_on_resonance": 0.00362086971566162
+    },
+    {
+      "frequency_Hz": 944.707057094764,
+      "Mxy_relative_to_on_resonance": 2.6191392679129197e-05
+    }
+  ],
+  "independent_small_tip_null_checks": [
+    {
+      "native_rotation_simulation_null_Hz": -940.168092444575,
+      "small_tip_Fourier_null_Hz": -941.668092444575
+    },
+    {
+      "native_rotation_simulation_null_Hz": 944.707057094764,
+      "small_tip_Fourier_null_Hz": 945.207057094764
+    }
+  ],
+  "observed_spatial_ratio_minima": [
+    {
+      "x_mm": -39.0,
+      "GRE_linear_over_normal": 0.9856595396995544,
+      "LIBRE_linear_over_normal": 0.0810655951499939
+    },
+    {
+      "x_mm": 42.0,
+      "GRE_linear_over_normal": 0.8983340263366699,
+      "LIBRE_linear_over_normal": 0.062292177230119705
+    }
+  ],
+  "conditional_frequency_gradient_Hz_per_mm": 23.27006357455974,
+  "conditional_gradient_caveat": "Inferred by assigning the two observed spatial bands to the two simulated RF nulls; not an independent B0 measurement.",
+  "limitations": [
+    "No measured spatial B0 or B1 map was available.",
+    "Single-pulse simulation does not predict the full steady-state intensity pattern or readout dephasing.",
+    "RF amplitudes are used exactly as exported; sequence/user flip-angle labels do not substitute for a measured local net rotation.",
+    "Header gradient-offset units were not converted to a physical gradient without scanner calibration."
+  ]
+}

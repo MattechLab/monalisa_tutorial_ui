@@ -1,0 +1,298 @@
+{
+  "status": "ANALYZED; exploratory descriptive assessment",
+  "region_centres_mm": {
+    "positive_x": {
+      "vitreous": [
+        37,
+        -66,
+        -18
+      ],
+      "dark_crescent": [
+        39,
+        -73,
+        -26
+      ],
+      "bright_cap": [
+        37,
+        -77,
+        -13
+      ]
+    },
+    "negative_x": {
+      "vitreous": [
+        -32,
+        -68,
+        -16
+      ],
+      "dark_crescent": [
+        -32,
+        -74,
+        -26
+      ],
+      "bright_cap": [
+        -32,
+        -78,
+        -12
+      ]
+    }
+  },
+  "radii_mm": {
+    "vitreous": 4,
+    "dark_crescent": 2,
+    "bright_cap": 2
+  },
+  "anatomical_caveat": "Anterior cap/dark crescent are image-region labels; not validated lens/aqueous masks.",
+  "no_registration": true,
+  "metrics": [
+    {
+      "sequence": 702,
+      "eye": "positive_x",
+      "vitreous_median": 2.0385293453273334e-08,
+      "dark_region_median": 1.518995773608367e-08,
+      "bright_cap_median": 2.4545119714503016e-08,
+      "dark_over_vitreous": 0.7451429517510609,
+      "cap_over_vitreous": 1.2040601608588433,
+      "signed_dark_contrast": 0.14603792084380124,
+      "signed_cap_contrast": 0.09258375269544747,
+      "relative_fine_variation_MAD": 0.04432604677867956
+    },
+    {
+      "sequence": 706,
+      "eye": "positive_x",
+      "vitreous_median": 3.066395848350112e-08,
+      "dark_region_median": 2.130296650193486e-08,
+      "bright_cap_median": 3.8322973239246494e-08,
+      "dark_over_vitreous": 0.6947233023876228,
+      "cap_over_vitreous": 1.24977253865858,
+      "signed_dark_contrast": 0.18013365201404025,
+      "signed_cap_contrast": 0.11102124075507921,
+      "relative_fine_variation_MAD": 0.03915737260494856
+    },
+    {
+      "sequence": 707,
+      "eye": "positive_x",
+      "vitreous_median": 2.8884295844022745e-08,
+      "dark_region_median": 1.9409215568089166e-08,
+      "bright_cap_median": 3.8884625297441744e-08,
+      "dark_over_vitreous": 0.6719642975857993,
+      "cap_over_vitreous": 1.3462202958805536,
+      "signed_dark_contrast": 0.19619779135706517,
+      "signed_cap_contrast": 0.14756512697824675,
+      "relative_fine_variation_MAD": 0.04354206510625163
+    },
+    {
+      "sequence": 705,
+      "eye": "positive_x",
+      "vitreous_median": 1.497081392187738e-08,
+      "dark_region_median": 1.1548928924298707e-08,
+      "bright_cap_median": 1.7626218706823238e-08,
+      "dark_over_vitreous": 0.7714295952487826,
+      "cap_over_vitreous": 1.1773721054047317,
+      "signed_dark_contrast": 0.12903160552599696,
+      "signed_cap_contrast": 0.08146154943587906,
+      "relative_fine_variation_MAD": 0.07122955989055131
+    },
+    {
+      "sequence": 708,
+      "eye": "positive_x",
+      "vitreous_median": 2.6348699222467076e-08,
+      "dark_region_median": 2.012641076021282e-08,
+      "bright_cap_median": 3.193191489003766e-08,
+      "dark_over_vitreous": 0.7638483626945569,
+      "cap_over_vitreous": 1.2118972029863955,
+      "signed_dark_contrast": 0.1338843192533196,
+      "signed_cap_contrast": 0.09579884756864024,
+      "relative_fine_variation_MAD": 0.04966528648977871
+    },
+    {
+      "sequence": 709,
+      "eye": "positive_x",
+      "vitreous_median": 2.4851848579032776e-08,
+      "dark_region_median": 1.928756532265652e-08,
+      "bright_cap_median": 2.982690716635261e-08,
+      "dark_over_vitreous": 0.7761018365019824,
+      "cap_over_vitreous": 1.2001886729471398,
+      "signed_dark_contrast": 0.12606155733670268,
+      "signed_cap_contrast": 0.09098704825117945,
+      "relative_fine_variation_MAD": 0.060505806970360385
+    },
+    {
+      "sequence": 702,
+      "eye": "negative_x",
+      "vitreous_median": 2.3200135146339562e-08,
+      "dark_region_median": 2.003210930467958e-08,
+      "bright_cap_median": 2.7255948609195002e-08,
+      "dark_over_vitreous": 0.8634479574503762,
+      "cap_over_vitreous": 1.1748185274470417,
+      "signed_dark_contrast": 0.07327923594735551,
+      "signed_cap_contrast": 0.08038304127023245,
+      "relative_fine_variation_MAD": 0.0595928773100006
+    },
+    {
+      "sequence": 706,
+      "eye": "negative_x",
+      "vitreous_median": 3.57843639164912e-08,
+      "dark_region_median": 2.9588402838953698e-08,
+      "bright_cap_median": 3.993135422319938e-08,
+      "dark_over_vitreous": 0.826852837401363,
+      "cap_over_vitreous": 1.1158883336975298,
+      "signed_dark_contrast": 0.09477893295714675,
+      "signed_cap_contrast": 0.054770533894392286,
+      "relative_fine_variation_MAD": 0.0532125013948992
+    },
+    {
+      "sequence": 707,
+      "eye": "negative_x",
+      "vitreous_median": 3.424918659789e-08,
+      "dark_region_median": 2.6389374241375663e-08,
+      "bright_cap_median": 4.1256189575733515e-08,
+      "dark_over_vitreous": 0.7705109774198678,
+      "cap_over_vitreous": 1.204588887324851,
+      "signed_dark_contrast": 0.12961739605509942,
+      "signed_cap_contrast": 0.09280137829829509,
+      "relative_fine_variation_MAD": 0.05342501951373129
+    },
+    {
+      "sequence": 705,
+      "eye": "negative_x",
+      "vitreous_median": 1.811864258627338e-08,
+      "dark_region_median": 1.5528593522162737e-08,
+      "bright_cap_median": 2.0890755791924676e-08,
+      "dark_over_vitreous": 0.857050601236935,
+      "cap_over_vitreous": 1.152997841447098,
+      "signed_dark_contrast": 0.07697657708834102,
+      "signed_cap_contrast": 0.07106270080803398,
+      "relative_fine_variation_MAD": 0.08359892548502126
+    },
+    {
+      "sequence": 708,
+      "eye": "negative_x",
+      "vitreous_median": 3.048173979891544e-08,
+      "dark_region_median": 2.8090916259770893e-08,
+      "bright_cap_median": 3.4387500846833063e-08,
+      "dark_over_vitreous": 0.9215653845575568,
+      "cap_over_vitreous": 1.1281344527472343,
+      "signed_dark_contrast": 0.040818083044570914,
+      "signed_cap_contrast": 0.060209754408056315,
+      "relative_fine_variation_MAD": 0.06740250059789044
+    },
+    {
+      "sequence": 709,
+      "eye": "negative_x",
+      "vitreous_median": 2.9276110424802937e-08,
+      "dark_region_median": 2.5367631550921033e-08,
+      "bright_cap_median": 3.3860022341514195e-08,
+      "dark_over_vitreous": 0.8664959648953021,
+      "cap_over_vitreous": 1.1565751682924292,
+      "signed_dark_contrast": 0.07152655972239759,
+      "signed_cap_contrast": 0.07260362198105293,
+      "relative_fine_variation_MAD": 0.059595269938999225
+    }
+  ],
+  "parameter_pairs": [
+    {
+      "comparison": "TR at 12\u00b0",
+      "eye": "positive_x",
+      "baseline": 702,
+      "changed": 706,
+      "vitreous_signal_ratio": 1.5042196254759976,
+      "dark_region_signal_ratio": 1.4024375098378166,
+      "cap_signal_ratio": 1.5613276156319797,
+      "dark_over_vitreous_before": 0.7451429517510609,
+      "dark_over_vitreous_after": 0.6947233023876228,
+      "cap_over_vitreous_before": 1.2040601608588433,
+      "cap_over_vitreous_after": 1.24977253865858
+    },
+    {
+      "comparison": "TR at 20\u00b0",
+      "eye": "positive_x",
+      "baseline": 705,
+      "changed": 708,
+      "vitreous_signal_ratio": 1.7600044566690385,
+      "dark_region_signal_ratio": 1.7427079941471688,
+      "cap_signal_ratio": 1.8116145851337124,
+      "dark_over_vitreous_before": 0.7714295952487826,
+      "dark_over_vitreous_after": 0.7638483626945569,
+      "cap_over_vitreous_before": 1.1773721054047317,
+      "cap_over_vitreous_after": 1.2118972029863955
+    },
+    {
+      "comparison": "TE at 12\u00b0",
+      "eye": "positive_x",
+      "baseline": 706,
+      "changed": 707,
+      "vitreous_signal_ratio": 0.9419623973064035,
+      "dark_region_signal_ratio": 0.9111038862275969,
+      "cap_signal_ratio": 1.014655753735205,
+      "dark_over_vitreous_before": 0.6947233023876228,
+      "dark_over_vitreous_after": 0.6719642975857993,
+      "cap_over_vitreous_before": 1.24977253865858,
+      "cap_over_vitreous_after": 1.3462202958805536
+    },
+    {
+      "comparison": "TE at 20\u00b0",
+      "eye": "positive_x",
+      "baseline": 708,
+      "changed": 709,
+      "vitreous_signal_ratio": 0.9431907195571172,
+      "dark_region_signal_ratio": 0.9583211608095277,
+      "cap_signal_ratio": 0.9340782495840303,
+      "dark_over_vitreous_before": 0.7638483626945569,
+      "dark_over_vitreous_after": 0.7761018365019824,
+      "cap_over_vitreous_before": 1.2118972029863955,
+      "cap_over_vitreous_after": 1.2001886729471398
+    },
+    {
+      "comparison": "TR at 12\u00b0",
+      "eye": "negative_x",
+      "baseline": 702,
+      "changed": 706,
+      "vitreous_signal_ratio": 1.542420494138248,
+      "dark_region_signal_ratio": 1.4770487914640986,
+      "cap_signal_ratio": 1.465050980090571,
+      "dark_over_vitreous_before": 0.8634479574503762,
+      "dark_over_vitreous_after": 0.826852837401363,
+      "cap_over_vitreous_before": 1.1748185274470417,
+      "cap_over_vitreous_after": 1.1158883336975298
+    },
+    {
+      "comparison": "TR at 20\u00b0",
+      "eye": "negative_x",
+      "baseline": 705,
+      "changed": 708,
+      "vitreous_signal_ratio": 1.6823412490077099,
+      "dark_region_signal_ratio": 1.8089800740600843,
+      "cap_signal_ratio": 1.6460630333022972,
+      "dark_over_vitreous_before": 0.857050601236935,
+      "dark_over_vitreous_after": 0.9215653845575568,
+      "cap_over_vitreous_before": 1.152997841447098,
+      "cap_over_vitreous_after": 1.1281344527472343
+    },
+    {
+      "comparison": "TE at 12\u00b0",
+      "eye": "negative_x",
+      "baseline": 706,
+      "changed": 707,
+      "vitreous_signal_ratio": 0.9570992145568441,
+      "dark_region_signal_ratio": 0.891882349480302,
+      "cap_signal_ratio": 1.033177821747013,
+      "dark_over_vitreous_before": 0.826852837401363,
+      "dark_over_vitreous_after": 0.7705109774198678,
+      "cap_over_vitreous_before": 1.1158883336975298,
+      "cap_over_vitreous_after": 1.204588887324851
+    },
+    {
+      "comparison": "TE at 20\u00b0",
+      "eye": "negative_x",
+      "baseline": 708,
+      "changed": 709,
+      "vitreous_signal_ratio": 0.9604474881661643,
+      "dark_region_signal_ratio": 0.9030546143932696,
+      "cap_signal_ratio": 0.9846607490416842,
+      "dark_over_vitreous_before": 0.9215653845575568,
+      "dark_over_vitreous_after": 0.8664959648953021,
+      "cap_over_vitreous_before": 1.1281344527472343,
+      "cap_over_vitreous_after": 1.1565751682924292
+    }
+  ]
+}

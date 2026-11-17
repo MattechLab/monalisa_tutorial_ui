@@ -1,0 +1,1410 @@
+CODECHECK MSNU line 57: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+CODECHECK MSNU line 71: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+MEX source: /Users/cag/forclone/monalisa/src/sparseMat/mex/bmSparseMat_vec/bmSparseMat_cC_oBlock_omp/bmSparseMat_cC_oBlock_omp_mex.mexmaca64
+MEX cache:  /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a/bmSparseMat_cC_oBlock_omp_mex.mexmaca64
+MEX source: /Users/cag/forclone/monalisa/src/image3/mex/bmImLaplaceEquationSolver3_omp/bmImLaplaceEquationSolver3_omp_mex.mexmaca64
+MEX cache:  /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a/bmImLaplaceEquationSolver3_omp_mex.mexmaca64
+Default paths: /Users/cag/forclone/monalisa_tutorial_ui/tutorial_config_7TTerraVE12U.m (edit this file to change future runs)
+    monalisaRoot: '/Users/cag/forclone/monalisa'
+      pulseqRoot: '/Users/cag/forclone/pulseq'
+      baseFolder: '/Volumes/Extreme SSD/261113'
+      outputRoot: '/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner'
+    mexCacheRoot: '/Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex'
+      sourceFile: '/Users/cag/forclone/monalisa_tutorial_ui/tutorial_config_7TTerraVE12U.m'
+
+MEX cache: /Users/cag/forclone/monalisa_tutorial_ui/runtime_cache/mex/maca64/2025a
+Missing cache files are recreated by this setup from MONALISA source MEXs.
+MEX runtime: /Applications/MATLAB_R2025a.app/bin/maca64/libomp.dylib
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       8ae72fe3a7292bf4b17399b70a18cd87
+Pulseq [SIGNATURE] Hash:        8ae72fe3a7292bf4b17399b70a18cd87 (matches TWIX: 1)
+Recomputed sequence-content MD5: 8ae72fe3a7292bf4b17399b70a18cd87
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       72c6a96f6adc50ecd409ba791232fbc3
+Pulseq [SIGNATURE] Hash:        72c6a96f6adc50ecd409ba791232fbc3 (matches TWIX: 1)
+Recomputed sequence-content MD5: 72c6a96f6adc50ecd409ba791232fbc3
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       b4b2401a8d7fd4eb1c0af9f6a87bb5eb
+Pulseq [SIGNATURE] Hash:        b4b2401a8d7fd4eb1c0af9f6a87bb5eb (matches TWIX: 1)
+Recomputed sequence-content MD5: b4b2401a8d7fd4eb1c0af9f6a87bb5eb
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       2ccf6ac3498938e809d0a4d90e1b2ae8
+Pulseq [SIGNATURE] Hash:        2ccf6ac3498938e809d0a4d90e1b2ae8 (matches TWIX: 1)
+Recomputed sequence-content MD5: 2ccf6ac3498938e809d0a4d90e1b2ae8
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       ee0ea22253441e18bf03014737e20bb9
+Pulseq [SIGNATURE] Hash:        ee0ea22253441e18bf03014737e20bb9 (matches TWIX: 1)
+Recomputed sequence-content MD5: ee0ea22253441e18bf03014737e20bb9
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       c3b92ecd4c6d70f1fa83d99021420c66
+Pulseq [SIGNATURE] Hash:        c3b92ecd4c6d70f1fa83d99021420c66 (matches TWIX: 1)
+Recomputed sequence-content MD5: c3b92ecd4c6d70f1fa83d99021420c66
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       8ae72fe3a7292bf4b17399b70a18cd87
+Pulseq [SIGNATURE] Hash:        8ae72fe3a7292bf4b17399b70a18cd87 (matches TWIX: 1)
+Recomputed sequence-content MD5: 8ae72fe3a7292bf4b17399b70a18cd87
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq702 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq702/xrms_normalized.nii.gz; source MAT still intact
+seq702 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq702/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       72c6a96f6adc50ecd409ba791232fbc3
+Pulseq [SIGNATURE] Hash:        72c6a96f6adc50ecd409ba791232fbc3 (matches TWIX: 1)
+Recomputed sequence-content MD5: 72c6a96f6adc50ecd409ba791232fbc3
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq706 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq706/xrms_normalized.nii.gz; source MAT still intact
+seq706 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq706/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       b4b2401a8d7fd4eb1c0af9f6a87bb5eb
+Pulseq [SIGNATURE] Hash:        b4b2401a8d7fd4eb1c0af9f6a87bb5eb (matches TWIX: 1)
+Recomputed sequence-content MD5: b4b2401a8d7fd4eb1c0af9f6a87bb5eb
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq707 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq707/xrms_normalized.nii.gz; source MAT still intact
+seq707 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq707/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       2ccf6ac3498938e809d0a4d90e1b2ae8
+Pulseq [SIGNATURE] Hash:        2ccf6ac3498938e809d0a4d90e1b2ae8 (matches TWIX: 1)
+Recomputed sequence-content MD5: 2ccf6ac3498938e809d0a4d90e1b2ae8
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq705 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq705/xrms_normalized.nii.gz; source MAT still intact
+seq705 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq705/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       ee0ea22253441e18bf03014737e20bb9
+Pulseq [SIGNATURE] Hash:        ee0ea22253441e18bf03014737e20bb9 (matches TWIX: 1)
+Recomputed sequence-content MD5: ee0ea22253441e18bf03014737e20bb9
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq708 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq708/xrms_normalized.nii.gz; source MAT still intact
+seq708 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq708/xrms_normalized.nii.gz
+Software version: VD (!?)
+Reader version: 0 
+ (UTC: 01-Jan-1970)
+Scan 1/1, read all mdhs:
+  2604.4 MB read in    3 s
+Pulseq signature in TWIX:       c3b92ecd4c6d70f1fa83d99021420c66
+Pulseq [SIGNATURE] Hash:        c3b92ecd4c6d70f1fa83d99021420c66 (matches TWIX: 1)
+Recomputed sequence-content MD5: c3b92ecd4c6d70f1fa83d99021420c66
+Sequence grouping: nSeg=44, nShot=500; verified against 22000 acquired readouts.
+Loading 32 channels: nSeg=44 nShot=500, discard=50 shots
+[Warning: Extracting the trajectory from pulse sequence file....] 
+[> In mlTrajFromPulseq (line 38)
+In bmTraj (line 65)
+In load_siemens_lowres (line 11)
+In run_isotropic_scanner>reconstruct_one (line 74)
+In run_isotropic_scanner (line 61)] 
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Running 'voronoin' and 'convhulln'... can take some time ...
+... 'voronoin' and 'convhulln' done !
+Low-resolution data: [5628689 32], grid [240 240 240]
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 1/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 2/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 3/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 4/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 5/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 6/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 7/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 8/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 9/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 10/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 11/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 12/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 13/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 14/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 15/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 16/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 17/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 18/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 19/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 20/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 21/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 22/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 23/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 24/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 25/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 26/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 27/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 28/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 29/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 30/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 31/32
+ 
+This is Mathilda...  
+Matrix size  240  240  240 . 
+FoV          240           240           240 . 
+ 
+seq709 coils reconstructed 32/32
+VERIFIED NIFTI: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq709/xrms_normalized.nii.gz; source MAT still intact
+seq709 VERIFIED 240-CUBED XRMS COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq709/xrms_normalized.nii.gz
+ISOTROPIC SCANNER BATCH COMPLETE: /Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367

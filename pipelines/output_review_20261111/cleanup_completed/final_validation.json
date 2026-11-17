@@ -1,0 +1,17 @@
+{
+  "status": "final_checks_passed",
+  "nifti_count": 12,
+  "retained_widths": [
+    0.61,
+    0.32,
+    0.2,
+    0.1
+  ],
+  "raw_inputs_and_kept_simulation_arrays_unchanged": true,
+  "preserved_reports_and_diagnostics_sha256_valid": true,
+  "retired_paths_absent": true,
+  "full_scanner_MATs_absent": true,
+  "result_pointers_valid": true,
+  "both_handover_files_present": true,
+  "nominal_geometry_and_divisors_valid": true
+}

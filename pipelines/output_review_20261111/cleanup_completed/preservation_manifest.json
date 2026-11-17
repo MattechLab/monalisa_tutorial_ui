@@ -1,0 +1,576 @@
+{
+  "nifti_validation": [
+    {
+      "sequence": 712,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p61/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "98fc87f5818523551ce76cc41a432253aa90ab84de430360b26cd1adf01eef0e",
+      "source_mat_sha256": "f60c29061eaced521c1c7dce7cc4067fc329f4980939995dac9e7fea6317ddb5"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p32/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "969c6dd1037958af3f3dbcdf3223ceeaf33921d0cb94601587af7b969abec6b6",
+      "source_mat_sha256": "b23e8a5e7604ca304cade69d6c77279aebf327f8de300ae1fda1013da2461116"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p2/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "b93a291024143bfc1d321fa770c5a9e6b45551605e4d383162b0bed90bd8327b",
+      "source_mat_sha256": "8c4813f54d1f97f5f278b50dc5a8dc306da8b0b2d53d9e563aac83eed56722e9"
+    },
+    {
+      "sequence": 712,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq712_sigma0p1/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "7f7c39b45f22b1bbe9f63fe475c16aade5eb69bec697ce318a05ec87a49fe115",
+      "source_mat_sha256": "323e6546ff3bad39b2a7a1d55f98dbca99f6f89a1f363c5788938979ddf74b8f"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p61/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "1cab30a1f5db29e4a9f63a48a9da23e46a96e84aa7d6ce8aa12e043bb917f9a4",
+      "source_mat_sha256": "e733e9c3e57276a9355f53b20470e1c4d95143b08c223503a48884e4455bbf46"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p32/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "984ffb697a62005706110d764f039de9bb5b4c8064989a533357773524ec4e21",
+      "source_mat_sha256": "e2b0b6a76675dbc7b6329271d251247120a256fdd2bbbb661e639d8020501c52"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p2/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "65b6b0f7a8375be483c3eaae65a7b49e48c09281f2284f79f0c1f1e64b4c9236",
+      "source_mat_sha256": "34f1706287626df8a692cba708fa69c725eb3403c0d9914de9608f5901a93358"
+    },
+    {
+      "sequence": 713,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq713_sigma0p1/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "7e0ab8cd2d406aa9fbeee6655d17f1f3d63d9a29633bcef49df3f85f402f738b",
+      "source_mat_sha256": "09adaa525a55204e34f5f6b68238504e24a9907457cca3bb9c8d0df3feeed9be"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.61,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p61/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "94ee7f864c9976887c8d1feb455478bb8e20a497d4165d3a9d3b4e6ee1bad9d6",
+      "source_mat_sha256": "bd30b424b4ee1dfaae0fcb92d7943b8f416b145dc778ac7c1312d819872208e1"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.32,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p32/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "e1b8d71217b4b0fc626b53af12e1486c52abd4d8a1c3e9372bf5666d63385c92",
+      "source_mat_sha256": "7ad823cd3db13350a5c5e5fb45bb0ce6588f85657d69afd503ed9cca1beb7915"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.2,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p2/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "bc615e72d7b5aef3dac0346e3967d450ba1e92e0f3a5d6f1052da3d17b8fac9c",
+      "source_mat_sha256": "e984312b2a536a7080db3605f68b401c4f1fc08c3981df992173170bdea21512"
+    },
+    {
+      "sequence": 714,
+      "sigma": 0.1,
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/reconstruction.mat",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/seq714_sigma0p1/xrms_normalized.nii.gz",
+      "exact_normalized_values": true,
+      "coordinate_vectors_exact": true,
+      "nifti_sha256": "eda16f3028b3dd04c8faeb20f566528aec1c86d2b541ceafe3758ca323d26304",
+      "source_mat_sha256": "6bf723e5f65d4f9d53db3b7ec3cab12e43d0ddfe80adc2d369c52ddddd453681"
+    }
+  ],
+  "copies": [
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma061.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma061.mat",
+      "sha256": "87113c4ac872f0209b94ba3225371757c57ea20c672fdf2ff122ae7234c8b2ac",
+      "bytes": 4676765
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma050.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma050.mat",
+      "sha256": "c42fcb6689c73834ee4aa866238a662ed570feacfeae8cd6d38f212056043eae",
+      "bytes": 4673024
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma040.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma040.mat",
+      "sha256": "3c8819111751109e0fe111dfeb06aa3731efd9d9daaaac91bba9ac8d4bc5988f",
+      "bytes": 4678179
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma061.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma061.mat",
+      "sha256": "0db90d4eca9e88f51940448bc3d113efb5471d6818bee10c34c14467d10cb9ff",
+      "bytes": 4696600
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma050.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma050.mat",
+      "sha256": "d59dc52ee05b707950d095422a851f3e641af3b884c8130b54ea89ed20db3189",
+      "bytes": 4710212
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma040.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma040.mat",
+      "sha256": "e77f6ac7b15535cfd9a2130a8c4b98bd3dd2dce704404f1ca22eaa3298ed940d",
+      "bytes": 4705465
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma061.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma061.mat",
+      "sha256": "ae8771922ac1f4d781d1c602a7e369ac8f60f06e7f7f2ca95d7e9affd861b537",
+      "bytes": 4677958
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma050.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma050.mat",
+      "sha256": "9cfc8337a25c40e505e60c9a083a2b1600fdecfc8f302f7a59e3e7ebd9300bff",
+      "bytes": 4676770
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma040.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma040.mat",
+      "sha256": "ced729f7f9c1ddeec95a549799d97d7286f942361fe87e679ba6e5945290239d",
+      "bytes": 4696898
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_sigma_metrics.json",
+      "sha256": "49afd91e96c0b23c7893eea86f6efbc6355bba04b83417f8f20975beb82a1b05",
+      "bytes": 1860
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/sweep_settings.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/sweep_settings.mat",
+      "sha256": "6c3658b295182c7c649e7666f24ecf570f3ff654122b37093269b59fefd2d5e5",
+      "bytes": 393
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq712_kernel_comparison.png",
+      "sha256": "e3655c4f736a5e1db1ca80bcbddeafa5898b7d4fe71ba502d3b5a3067c070bde",
+      "bytes": 285753
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq713_kernel_comparison.png",
+      "sha256": "eb67ec6990fddd1eacc55ff112bc698c7c6f06e4aaca2f317cafb740bf5612b3",
+      "bytes": 289235
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq714_kernel_comparison.png",
+      "sha256": "5f51c337d6b8d87ecfb4fd72e51cd4324a5a542f0f2cb89bad995b84dbfb7ed6",
+      "bytes": 285020
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/comparison_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/comparison_metrics.json",
+      "sha256": "33cb82fb5c644614f094e1cad53d4113f9dd58a98d181c223a32765949b5204c",
+      "bytes": 1490
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_sweep.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/run_sweep.m",
+      "sha256": "2d416e23f69ed421baea4e764636c7088019b3a6c6c72caa3c1f4291a575db40",
+      "bytes": 1901
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/test_phantom_sigma.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/test_phantom_sigma.m",
+      "sha256": "9488764287771d48bc38b1fe44349d940bde146570db6e39ef55e7acf0e8a3c8",
+      "bytes": 1821
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_sweep.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/plot_sweep.py",
+      "sha256": "c843059cf967fd3626e9b5b4a947a4b83a610cdc8ff1bc427c372ae733aba28f",
+      "bytes": 2832
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_phantom.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/plot_phantom.py",
+      "sha256": "4bfd472071f2ca6e5f44e0ed4ebe9ae1b081d675490c7e02c035b727abfea8db",
+      "bytes": 949
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_profiles.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_sigma_profiles.png",
+      "sha256": "f0766504790996f80355110fc3d99878565fda623fc6a7dd9c9f5983c3f14682",
+      "bytes": 269889
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/summary.txt",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/summary.txt",
+      "sha256": "ee856acd1420486625718cbb1ca06d7c5020d259b60f0d16ac6e18178dcf83a8",
+      "bytes": 5469
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/scanner_intensity_adjusted_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/scanner_intensity_adjusted_metrics.json",
+      "sha256": "055450dc5f718124dfc96f0c3890ed8546063729114f20d07ca5892ea672ce89",
+      "bytes": 3089
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/measure_intensity_adjusted.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/measure_intensity_adjusted.py",
+      "sha256": "2a48b7c4afa4676640912e082861c50c0454da76dac4be132d2e8a91c6c6ab00",
+      "bytes": 1876
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma032.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma032.mat",
+      "sha256": "98b47c11f8406d03cf927c507233f3ddad9a6ac0a2b1ae982f3b1d00706473ce",
+      "bytes": 4685691
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma027.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma027.mat",
+      "sha256": "cc01d44433bbc7efffb664a934ce8735a39e900e656f23e0e63dd8aece060c18",
+      "bytes": 4699446
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma020.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq712_sigma020.mat",
+      "sha256": "940392af756c8cbc586c0cbf95de70992565bf876708b7aeca8a0e5f6b683d97",
+      "bytes": 4705039
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma032.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma032.mat",
+      "sha256": "4240c239ce9b46a9ce4f0dc17926651ebfd1705611f7c5b0d25b23f8f80b53f1",
+      "bytes": 4709297
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma027.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma027.mat",
+      "sha256": "d11c8f168d0f31833b69c2b433282f112ef08e07bf9fa3c9a8ab468dd0dec346",
+      "bytes": 4709473
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma020.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq713_sigma020.mat",
+      "sha256": "bfeb65e7eb6afe822381d35c8e6fd4467cf26a2a87f1c75da0f291259e3db2f7",
+      "bytes": 4711515
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma032.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma032.mat",
+      "sha256": "bade9e976482e2bd22270947889fc8edb5a1691f81fb911763b279e4eac2c2db",
+      "bytes": 4694862
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma027.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma027.mat",
+      "sha256": "813a63861b391886519ff3d3672f8152bff0f7b0315c4b5eb33a6d08d5821a02",
+      "bytes": 4685505
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma020.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_seq714_sigma020.mat",
+      "sha256": "4bdbfa8b308fac8991e5d2719c650f2f4e58b8eaa60eb080c13375ed596e1c6b",
+      "bytes": 4700292
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_extended_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_sigma_extended_metrics.json",
+      "sha256": "511f46a2473bc7df21291e498ec19cdd6316fe5185612aa7885e6e6708288c89",
+      "bytes": 1858
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/extended_sweep_settings.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/extended_sweep_settings.mat",
+      "sha256": "2e0069641e9bb8ec9213f508a807dbf28159df1c9f330155d120a1e2b212d6e1",
+      "bytes": 393
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_narrow_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq712_narrow_kernel_comparison.png",
+      "sha256": "8df1a577b3fefb103f1e089c9e7430de13994252324349a84e184d399701fd13",
+      "bytes": 347462
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_narrow_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq713_narrow_kernel_comparison.png",
+      "sha256": "65a0123509dec4416cb54052814f9b19bef7eac17f6f35541553a7e4203414b8",
+      "bytes": 353268
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_narrow_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq714_narrow_kernel_comparison.png",
+      "sha256": "90fd8ff90b0b88c734e05514e9e07a0d941b057d675f7379568db1ea477faaff",
+      "bytes": 349409
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/narrow_comparison_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/narrow_comparison_metrics.json",
+      "sha256": "4a0869948694f67c36a49463bb52c148262169d30ff430e5777fb8d581b98e0e",
+      "bytes": 2021
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_all_six_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq712_all_six_kernel_comparison.png",
+      "sha256": "d7b26d624fba7834f5cb834c7ddaf2be1e29e163b6784534b779196e41ec7bfe",
+      "bytes": 465727
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_all_six_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq713_all_six_kernel_comparison.png",
+      "sha256": "fc1d2fe5b50632d9baad132fe8f66cfa3be59caf31035fd891b96bed9a32a59b",
+      "bytes": 475819
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_all_six_kernel_comparison.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq714_all_six_kernel_comparison.png",
+      "sha256": "4df855fab9dfeb54841f7d1c7cac2f08af68c2351a3223fca77a46be946274d2",
+      "bytes": 467380
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/all_six_comparison_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/all_six_comparison_metrics.json",
+      "sha256": "95ca867c058304dfa3328935ea1a3a5a76986a4f8d2672316bc0d968c470422f",
+      "bytes": 3070
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_extended_sweep.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/run_extended_sweep.m",
+      "sha256": "f95ef60a98b9648bfb27bba21163a745799e136ece70836dcb33de554b849a63",
+      "bytes": 1867
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/test_phantom_extended.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/test_phantom_extended.m",
+      "sha256": "6163528b81e53badc3c3cbdeb1397696a9dada2d53b20653428fad3c0c8b8709",
+      "bytes": 1830
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_extended.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/plot_extended.py",
+      "sha256": "6a82d6af54292822f62ae084e853f17c8e0fb7d578dd2460a09fd406a2e1b5f7",
+      "bytes": 3003
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_phantom_extended.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/plot_phantom_extended.py",
+      "sha256": "c88357d6182aa691b6729d43c546e4c8059f7558996c46fc66b0043ef52e6dcf",
+      "bytes": 1220
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_extended_curve.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111/phantom_extended_curve.png",
+      "sha256": "61e7da4d13acf92ea7be9d0a24b109da73d9e7d47ed6da8030cfb8d541d7e7b6",
+      "bytes": 150629
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/measure_extended.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/measure_extended.py",
+      "sha256": "5d04b7ff7439b6a8e46f0edbf76a5cc35ae695dafb832f62559041ea926117ab",
+      "bytes": 1353
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/narrow_intensity_adjusted_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/narrow_intensity_adjusted_metrics.json",
+      "sha256": "eae2ec491a3d9cad4057ed723c0ab787be07c892788ca29aaf5a45fedf34540e",
+      "bytes": 4646
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/lower_sweep_settings.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/lower_sweep_settings.mat",
+      "sha256": "588d0f449bd719dacc387a56c6691b88574a228bd6697e9d5ba2a5374366febf",
+      "bytes": 393
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020_015_010_regions.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq712_sigma020_015_010_regions.png",
+      "sha256": "92fc4ab4d44ed98ae6c94c01e066c83fb817870dc84276e8a527fac1106cbb0c",
+      "bytes": 179469
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020_015_010_regions.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq713_sigma020_015_010_regions.png",
+      "sha256": "f057bca80d09d8652fae6f026247f41db8c76e037cc568443ac9477cf4fac2cd",
+      "bytes": 179946
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020_015_010_regions.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/seq714_sigma020_015_010_regions.png",
+      "sha256": "bb26ef5d41f2ed961ae6eb75f8e77881341ed72d98f4c95de6bae9c22af1aa91",
+      "bytes": 179373
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/lower_width_region_metrics.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/lower_width_region_metrics.json",
+      "sha256": "dedef1a63269263e58081eef81e1daf06e45f230ead672e75529021299fc0756",
+      "bytes": 3411
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_lower_sweep.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/run_lower_sweep.m",
+      "sha256": "22dc7ce8a01ffe1f1a7c00747ad4a77bff97269131ac916da15fbbf0c7df90a5",
+      "bytes": 1857
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_regions.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/plot_regions.py",
+      "sha256": "2bffa7c8907343243727ca625faa4cdf1a4af6befcee25b81881a1da96ab78ca",
+      "bytes": 2874
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm24.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/orbital_all_widths_zm24.png",
+      "sha256": "78e3ca9ed50c6293238d46defee1bceaad5282cd07eed0270d15104c2b0cf381",
+      "bytes": 310811
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm24.pdf",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/orbital_all_widths_zm24.pdf",
+      "sha256": "86ea1ab2294b10068717fc2bd50167095dcd822a62d3a47b7dafbca19563af24",
+      "bytes": 88225
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm20.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/orbital_all_widths_zm20.png",
+      "sha256": "63779b951e7d0cbe0f0965c3de8780084213a9a149b594a0ba839de6130e3146",
+      "bytes": 315736
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm20.pdf",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/orbital_all_widths_zm20.pdf",
+      "sha256": "809eba8fcf68b0987009dc3135d931b26bbb519d43cf0c845577c0dc8d20feac",
+      "bytes": 89876
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/comparison_manifest.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/comparison_manifest.json",
+      "sha256": "8181ffbf5d3ad147da072604001734c4e6d4ca771ca9fd12c218d1e56b410d95",
+      "bytes": 46732
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_orbital_overview.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons/historical_scripts/plot_orbital_overview.py",
+      "sha256": "47e2e3d29c09100256d4bf97d0cdbb3b86adc80428af89d14c9f84e4bcfa9dc4",
+      "bytes": 5217
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sweep.log",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/sweep.log",
+      "sha256": "34655c4a756f9c48e8711103c24d2d0aff70b7d99231e7b0cbc890857dcea5fe",
+      "bytes": 4116
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_400.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/sigma_400.mat",
+      "sha256": "0cd5bacb45284388ce689e386831f9f56f5b829d22377616cac4de14f6d54b89",
+      "bytes": 4678411
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_500.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/sigma_500.mat",
+      "sha256": "2438489e85f348558c3384a70c143d8079171bed05ebc0b90aeded2a557545c8",
+      "bytes": 4673256
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_610.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/sigma_610.mat",
+      "sha256": "a5e9c3ebc398d04d9cfcd0d82652ee1c6557f91cd94397c40ed831c2bc571f83",
+      "bytes": 4676997
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/curve.csv",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/curve.csv",
+      "sha256": "91fd2fb810fd8f24ead6af7c14780913b0d4872d8b03dcb3b4e7bf3dd54f86dd",
+      "bytes": 19489
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/results.mat",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/results.mat",
+      "sha256": "e6cc3a4fee7a3d65cc8fba6274561b48c30b53c3b1b68189c1ed92ac037e902a",
+      "bytes": 5239770
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/summary.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/summary.json",
+      "sha256": "9d2e41115ef5745106b7b3eba2b89534d0c983c9e616c1f1170aad285b67de5f",
+      "bytes": 895
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sweep_box_kernel.m",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/sweep_box_kernel.m",
+      "sha256": "8daa90a452388f7f6c8917bb292536528a170ed2c604f9ce4b99674160568592",
+      "bytes": 5066
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/plot_curve.py",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/plot_curve.py",
+      "sha256": "e85e94fda5f2b40be9116dfde760c3217ad5327315ca88c9aa31dc47c1161440",
+      "bytes": 2556
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/local_fit.json",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/local_fit.json",
+      "sha256": "fda07bcca4df14a09191e1390a3ccfb0063795d01d07bc385d8d3917aa18de02",
+      "bytes": 149
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/width_error_curve.png",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/width_error_curve.png",
+      "sha256": "fd14309f7d55397d1c8e5e99e72a7166fdc589101bfeecd85e406d0ad4865ac4",
+      "bytes": 160532
+    },
+    {
+      "source": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/interpretation.txt",
+      "destination": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111/interpretation.txt",
+      "sha256": "f0118f1ab53881c943d299cac1944c76babe0bdb29d4eba092a621385c031a49",
+      "bytes": 1678
+    }
+  ],
+  "staticRoot": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics",
+  "staticSweep": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/kernel_sweep_20261111",
+  "boxCurve": "/Volumes/Extreme SSD/261110/recon_results/water_phantom_diagnostics/box_kernel_curve_20261111",
+  "comparisons": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_scanner/retained_20261111/comparisons",
+  "copied_files_all_sha256_verified": true,
+  "all_12_nifti_independently_verified": true
+}

@@ -1,0 +1,28 @@
+{
+  "verification_status": "ANALYZED",
+  "comparison_type": "exploratory descriptive assessment of five scans in one session",
+  "coordinate_assumption": "default orthogonal Slicer views, without additional transforms",
+  "sources_modified": false,
+  "inferential_tests": 0,
+  "limitations": [
+    "No repeated acquisitions or independent subjects",
+    "No cross-scan rigid or eye-motion registration",
+    "ROI locations are manually selected exploratory samples, not validated segmentations",
+    "Spatial variation inside magnitude images is not a calibrated noise estimate",
+    "1-mm output grid does not establish true resolution or separation of ocular-wall layers"
+  ],
+  "fallacy_scan_coverage": "11/11 checked",
+  "fallacy_scan_notes": {
+    "Simpson": "Both eyes reported separately; no reversal in main signal direction",
+    "ecological": "No population inference; voxels are not independent replicates",
+    "Berkson": "No selected-population association estimated",
+    "collider": "No covariate-conditioned model",
+    "base_rate": "No diagnostic accuracy claim",
+    "regression_to_mean": "No selection of subjects by extreme baseline",
+    "survivorship": "All five completed scans included",
+    "look_elsewhere": "No hypothesis tests or selective significance reporting",
+    "forking_paths": "Exploratory ROI selection disclosed, native neighbouring planes inspected",
+    "causality": "Apparent parameter trends remain confounded by scan-to-scan motion and field/receive effects",
+    "reverse_causality": "No reverse-causal association estimated"
+  }
+}

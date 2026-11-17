@@ -1,0 +1,165 @@
+{
+  "interpretation": "Exploratory spatial variation; not calibrated noise, SNR, or intrinsic tissue heterogeneity. Fixed 7-mm-radius interior spheres; no motion registration.",
+  "measurements": [
+    {
+      "eye": "positive_x",
+      "sequence": 701,
+      "mask_centre_mm": [
+        36,
+        -70,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 2.1420369478164503e-08,
+      "IQR_over_median": 0.15033367068604006,
+      "P90_minus_P10_over_median": 0.27512254328779234,
+      "smooth_P90_minus_P10_over_median": 0.22161382743263588,
+      "residual_MAD_over_median": 0.045861112639992825
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 702,
+      "mask_centre_mm": [
+        36,
+        -70,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 1.9275912421790053e-08,
+      "IQR_over_median": 0.1550035507024272,
+      "P90_minus_P10_over_median": 0.29118246223934413,
+      "smooth_P90_minus_P10_over_median": 0.21565759395387757,
+      "residual_MAD_over_median": 0.04784617723801096
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 704,
+      "mask_centre_mm": [
+        36,
+        -70,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 1.7861808032648696e-08,
+      "IQR_over_median": 0.14377660784795765,
+      "P90_minus_P10_over_median": 0.27382286999975347,
+      "smooth_P90_minus_P10_over_median": 0.1762711621912075,
+      "residual_MAD_over_median": 0.05109914695435868
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 703,
+      "mask_centre_mm": [
+        36,
+        -70,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 1.7292492771048273e-08,
+      "IQR_over_median": 0.15125208427325942,
+      "P90_minus_P10_over_median": 0.27259588478786656,
+      "smooth_P90_minus_P10_over_median": 0.1747681301668529,
+      "residual_MAD_over_median": 0.055589176929237004
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 705,
+      "mask_centre_mm": [
+        36,
+        -70,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 1.4753809729484146e-08,
+      "IQR_over_median": 0.15954668965662136,
+      "P90_minus_P10_over_median": 0.30850650999111273,
+      "smooth_P90_minus_P10_over_median": 0.13001182364509922,
+      "residual_MAD_over_median": 0.06956030855715432
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 701,
+      "mask_centre_mm": [
+        -32,
+        -73,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 2.503787221996845e-08,
+      "IQR_over_median": 0.17514884105923853,
+      "P90_minus_P10_over_median": 0.3509314498566839,
+      "smooth_P90_minus_P10_over_median": 0.2857382613526484,
+      "residual_MAD_over_median": 0.047600984834064324
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 702,
+      "mask_centre_mm": [
+        -32,
+        -73,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 2.2327844462211033e-08,
+      "IQR_over_median": 0.2032701646109033,
+      "P90_minus_P10_over_median": 0.3827954568291285,
+      "smooth_P90_minus_P10_over_median": 0.3102534678271353,
+      "residual_MAD_over_median": 0.0498823877102666
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 704,
+      "mask_centre_mm": [
+        -32,
+        -73,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 2.1147840811863716e-08,
+      "IQR_over_median": 0.19696042292864885,
+      "P90_minus_P10_over_median": 0.3812498866039444,
+      "smooth_P90_minus_P10_over_median": 0.3024106665941316,
+      "residual_MAD_over_median": 0.05003856766362133
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 703,
+      "mask_centre_mm": [
+        -32,
+        -73,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 2.0328847938344552e-08,
+      "IQR_over_median": 0.19474531209203955,
+      "P90_minus_P10_over_median": 0.3514893756831016,
+      "smooth_P90_minus_P10_over_median": 0.2769416021260985,
+      "residual_MAD_over_median": 0.058304817400702785
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 705,
+      "mask_centre_mm": [
+        -32,
+        -73,
+        -21
+      ],
+      "mask_radius_mm": 7,
+      "n_voxels": 1419,
+      "median_xrms": 1.7555974451965994e-08,
+      "IQR_over_median": 0.1982734729415312,
+      "P90_minus_P10_over_median": 0.39753554919567524,
+      "smooth_P90_minus_P10_over_median": 0.2933775559375994,
+      "residual_MAD_over_median": 0.07046911462664575
+    }
+  ]
+}

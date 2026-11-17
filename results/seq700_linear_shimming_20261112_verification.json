@@ -1,0 +1,22 @@
+{
+  "batch": "/Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_linear_shimming_20261112_100256_121",
+  "checks": "NIfTI dimensions, float32 type, 1-mm spacing, centred affine, payload size, MD5, gzip integrity, source identity, normal-shimming processing match and compact file inventory. Exporter exact read-back also passed.",
+  "results": [
+    {
+      "scan": "gre",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_linear_shimming_20261112_100256_121/seq700_gre_linear_shimming/xrms_normalized.nii.gz",
+      "MiB": 46.68645668029785,
+      "relative_restoration_error": 2.3464867345131713e-08,
+      "processing_matches_normal_shimming": true,
+      "verified": true
+    },
+    {
+      "scan": "libre",
+      "nifti": "/Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_seq700_linear_shimming_20261112_100256_121/seq700_libre_linear_shimming/xrms_normalized.nii.gz",
+      "MiB": 46.31588363647461,
+      "relative_restoration_error": 2.369172612095722e-08,
+      "processing_matches_normal_shimming": true,
+      "verified": true
+    }
+  ]
+}

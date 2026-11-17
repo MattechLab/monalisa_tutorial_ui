@@ -1,0 +1,9 @@
+{
+  "default_four_width_plan": true,
+  "twelve_nifti_loader_roundtrips": true,
+  "normalized_float32_and_reversible_scale": true,
+  "shared_encodings_valid": true,
+  "koma_default_points_to_retained_batch": true,
+  "matlab_code_analysis": true,
+  "full_new_simulation_or_reconstruction_run": false
+}

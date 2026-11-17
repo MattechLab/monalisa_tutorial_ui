@@ -1,0 +1,2379 @@
+{
+  "authorization": "User requested cleanup of B,C,D,H; keep only sigma .61,.32,.20,.10 for seq712-714; replace retained magnitude MATs with normalized NIfTI.",
+  "roots": [
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031",
+    "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973",
+    "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom",
+    "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov"
+  ],
+  "files": [
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/._seq712",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389263110000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/._seq713",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305600000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/._seq714",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339160000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/reconstruction.log",
+      "bytes": 5405,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305570000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389263110000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389292450000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/xrms_preview.png",
+      "bytes": 90476,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305390000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/reconstruction.mat",
+      "bytes": 361314660,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794389302270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389479120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/validation.json",
+      "bytes": 568,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305580000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq712/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/reconstruction.log",
+      "bytes": 5405,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389305600000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389327150000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/xrms_preview.png",
+      "bytes": 92181,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339010000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/reconstruction.mat",
+      "bytes": 345395981,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794389337060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389496050000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/validation.json",
+      "bytes": 562,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq713/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/reconstruction.log",
+      "bytes": 5405,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389371380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389339170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389360070000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/xrms_preview.png",
+      "bytes": 90640,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389371270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/reconstruction.mat",
+      "bytes": 351704774,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794389369670000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389506850000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/validation.json",
+      "bytes": 569,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389371410000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_xrms_20261111_102743_031/seq714/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389371370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma050",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389848260000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma040",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389888040000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma050",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma040",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389953140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma061.mat",
+      "bytes": 4676765,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389972510000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma061.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389972330000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma050.mat",
+      "bytes": 4673024,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389973280000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma050.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389973050000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma040.mat",
+      "bytes": 4678179,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389973930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma040.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389973770000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma061.mat",
+      "bytes": 4696600,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389974710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma061.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389974580000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma050.mat",
+      "bytes": 4710212,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389975190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma050.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389975060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma040.mat",
+      "bytes": 4705465,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389975660000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma040.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389975530000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma061.mat",
+      "bytes": 4677958,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389976450000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma061.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389976310000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma050.mat",
+      "bytes": 4676770,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389976950000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma050.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389976810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma040.mat",
+      "bytes": 4696898,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794389977460000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma040.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389977320000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_metrics.json",
+      "bytes": 1860,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389977500000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_sigma_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389977460000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma050",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma040",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/sweep_settings.mat",
+      "bytes": 393,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390051090000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._sweep_settings.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390051080000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_kernel_comparison.png",
+      "bytes": 285753,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390065730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391374910000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_kernel_comparison.png",
+      "bytes": 289235,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390066380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391304280000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_kernel_comparison.png",
+      "bytes": 285020,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067020000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390066930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/comparison_metrics.json",
+      "bytes": 1490,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067070000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._comparison_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_sweep.m",
+      "bytes": 1901,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067180000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._run_sweep.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/test_phantom_sigma.m",
+      "bytes": 1821,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._test_phantom_sigma.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_sweep.py",
+      "bytes": 2832,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_sweep.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_phantom.py",
+      "bytes": 949,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_phantom.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_profiles.png",
+      "bytes": 269889,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_sigma_profiles.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390067210000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/summary.txt",
+      "bytes": 5469,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402790250000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._summary.txt",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390109760000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/scanner_intensity_adjusted_metrics.json",
+      "bytes": 3089,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390494820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._scanner_intensity_adjusted_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390494830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/measure_intensity_adjusted.py",
+      "bytes": 1876,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390494840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._measure_intensity_adjusted.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390494840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma032",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391474370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma032.mat",
+      "bytes": 4685691,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391476990000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma032.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391476850000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma027.mat",
+      "bytes": 4699446,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391477540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma027.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391477400000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq712_sigma020.mat",
+      "bytes": 4705039,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391478140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq712_sigma020.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391477980000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma032.mat",
+      "bytes": 4709297,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391478970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma032.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391478830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma027.mat",
+      "bytes": 4709473,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391479440000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma027.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391479300000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq713_sigma020.mat",
+      "bytes": 4711515,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391479890000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq713_sigma020.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391479760000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma032.mat",
+      "bytes": 4694862,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391480720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma032.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391480580000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma027.mat",
+      "bytes": 4685505,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391481540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma027.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391481240000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_seq714_sigma020.mat",
+      "bytes": 4700292,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794391482070000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_seq714_sigma020.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391481940000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_sigma_extended_metrics.json",
+      "bytes": 1858,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391482100000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_sigma_extended_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391482080000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma027",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515960000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma020",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391550060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma032",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583770000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma027",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612890000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma020",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391642120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma032",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671860000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma027",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703450000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma020",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/extended_sweep_settings.mat",
+      "bytes": 393,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765880000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._extended_sweep_settings.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765880000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_narrow_kernel_comparison.png",
+      "bytes": 347462,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391789060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_narrow_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794392148180000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_narrow_kernel_comparison.png",
+      "bytes": 353268,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391789910000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_narrow_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794392204930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_narrow_kernel_comparison.png",
+      "bytes": 349409,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391790710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_narrow_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794392222710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/narrow_comparison_metrics.json",
+      "bytes": 2021,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391790770000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._narrow_comparison_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391790770000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_all_six_kernel_comparison.png",
+      "bytes": 465727,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391792230000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_all_six_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391792060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_all_six_kernel_comparison.png",
+      "bytes": 475819,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391793400000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_all_six_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391793230000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_all_six_kernel_comparison.png",
+      "bytes": 467380,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794610000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_all_six_kernel_comparison.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794440000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/all_six_comparison_metrics.json",
+      "bytes": 3070,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794690000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._all_six_comparison_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794690000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_extended_sweep.m",
+      "bytes": 1867,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._run_extended_sweep.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/test_phantom_extended.m",
+      "bytes": 1830,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._test_phantom_extended.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_extended.py",
+      "bytes": 3003,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_extended.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_phantom_extended.py",
+      "bytes": 1220,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_phantom_extended.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/phantom_extended_curve.png",
+      "bytes": 150629,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._phantom_extended_curve.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391794850000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/measure_extended.py",
+      "bytes": 1353,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391836400000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._measure_extended.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391836410000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/narrow_intensity_adjusted_metrics.json",
+      "bytes": 4646,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391836420000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._narrow_intensity_adjusted_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391836420000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma015",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402499870000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma010",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402538010000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma015",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573740000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma010",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma015",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma010",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664430000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/lower_sweep_settings.mat",
+      "bytes": 393,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._lower_sweep_settings.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020_015_010_regions.png",
+      "bytes": 179469,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402763540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq712_sigma020_015_010_regions.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406443500000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020_015_010_regions.png",
+      "bytes": 179946,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402763980000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq713_sigma020_015_010_regions.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406466540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020_015_010_regions.png",
+      "bytes": 179373,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402764440000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._seq714_sigma020_015_010_regions.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406478200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/lower_width_region_metrics.json",
+      "bytes": 3411,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402764470000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._lower_width_region_metrics.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402711290000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/run_lower_sweep.m",
+      "bytes": 1857,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402711380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._run_lower_sweep.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402711390000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_regions.py",
+      "bytes": 2874,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402764560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_regions.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402764560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm24.png",
+      "bytes": 310811,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._orbital_all_widths_zm24.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908150000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm24.pdf",
+      "bytes": 88225,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908150000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._orbital_all_widths_zm24.pdf",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908160000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm20.png",
+      "bytes": 315736,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908160000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._orbital_all_widths_zm20.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/orbital_all_widths_zm20.pdf",
+      "bytes": 89876,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908180000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._orbital_all_widths_zm20.pdf",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/comparison_manifest.json",
+      "bytes": 46732,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._comparison_manifest.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/plot_orbital_overview.py",
+      "bytes": 5217,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908200000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/._plot_orbital_overview.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794406908210000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389887810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389848270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389875640000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/xrms_preview.png",
+      "bytes": 91112,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389887680000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/reconstruction.mat",
+      "bytes": 361458045,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794389885040000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389887640000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/validation.json",
+      "bytes": 675,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389887830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma050/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389887810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921420000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389888040000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389910270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/xrms_preview.png",
+      "bytes": 90526,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921320000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/reconstruction.mat",
+      "bytes": 361486232,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794389919680000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/validation.json",
+      "bytes": 675,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921440000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma040/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921410000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389952960000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389921810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389941470000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/xrms_preview.png",
+      "bytes": 94551,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389952850000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/reconstruction.mat",
+      "bytes": 345703208,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794389950840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389952810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/validation.json",
+      "bytes": 670,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389952980000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma050/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389952960000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986610000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389953140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389974340000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/xrms_preview.png",
+      "bytes": 94438,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986520000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/reconstruction.mat",
+      "bytes": 345733556,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794389983970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986470000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/validation.json",
+      "bytes": 670,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986620000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma040/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986610000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019620000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794389986930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390008380000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/xrms_preview.png",
+      "bytes": 91281,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/reconstruction.mat",
+      "bytes": 351843836,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794390017820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019520000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/validation.json",
+      "bytes": 675,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019630000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma050/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019620000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390050930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390019810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390039730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/xrms_preview.png",
+      "bytes": 90807,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390050880000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/reconstruction.mat",
+      "bytes": 351875810,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794390049140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390050840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/validation.json",
+      "bytes": 669,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390050940000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma040/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390050930000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391474370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391503360000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/xrms_preview.png",
+      "bytes": 89603,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515570000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/reconstruction.mat",
+      "bytes": 361439008,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794391512800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515520000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma032/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391549820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391515960000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391538560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/xrms_preview.png",
+      "bytes": 89022,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391549730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/reconstruction.mat",
+      "bytes": 361380673,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794391548180000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391549690000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391549840000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma027/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391549810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391550060000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391571870000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/xrms_preview.png",
+      "bytes": 88844,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583280000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/reconstruction.mat",
+      "bytes": 361200786,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794391581700000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583240000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/validation.json",
+      "bytes": 669,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583400000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma020/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391583780000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391601970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/xrms_preview.png",
+      "bytes": 94018,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612640000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/reconstruction.mat",
+      "bytes": 345605361,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794391611100000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612600000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/validation.json",
+      "bytes": 672,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma032/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391641950000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391612890000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391631070000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/xrms_preview.png",
+      "bytes": 93590,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391641890000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/reconstruction.mat",
+      "bytes": 345480606,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794391640190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391641850000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/validation.json",
+      "bytes": 672,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391641970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma027/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391641950000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671530000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391642130000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391660410000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/xrms_preview.png",
+      "bytes": 93392,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671460000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/reconstruction.mat",
+      "bytes": 345299638,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794391669700000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671430000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/validation.json",
+      "bytes": 670,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671550000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma020/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671530000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703270000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391671860000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391691970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/xrms_preview.png",
+      "bytes": 90533,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703210000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/reconstruction.mat",
+      "bytes": 351791894,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794391701480000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703280000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma032/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703260000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734520000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391703450000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391723480000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/xrms_preview.png",
+      "bytes": 90448,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734470000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/reconstruction.mat",
+      "bytes": 351693667,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794391732720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734430000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma027/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734520000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391734730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391754670000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/xrms_preview.png",
+      "bytes": 90684,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765650000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/reconstruction.mat",
+      "bytes": 351525412,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794391763970000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765600000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/validation.json",
+      "bytes": 675,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma020/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794391765700000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402537800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402499870000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402526100000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/xrms_preview.png",
+      "bytes": 88591,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402537660000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/reconstruction.mat",
+      "bytes": 361021536,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794402535330000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402537610000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402537810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma015/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402537800000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402538010000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402562590000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/xrms_preview.png",
+      "bytes": 88497,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573290000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/reconstruction.mat",
+      "bytes": 360985056,
+      "allocated_bytes": 361758720,
+      "mtime_ns": 1794402571830000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573260000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/validation.json",
+      "bytes": 667,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573390000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq712_sigma010/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573370000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602660000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402573740000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402592400000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/xrms_preview.png",
+      "bytes": 93248,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602590000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/reconstruction.mat",
+      "bytes": 345223560,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794402601170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602560000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/validation.json",
+      "bytes": 666,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602670000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma015/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602660000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632420000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402602810000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402621990000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/xrms_preview.png",
+      "bytes": 93147,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632350000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/reconstruction.mat",
+      "bytes": 345203637,
+      "allocated_bytes": 346030080,
+      "mtime_ns": 1794402630980000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632320000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/validation.json",
+      "bytes": 670,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632420000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq713_sigma010/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632410000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664250000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402632710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402652480000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/xrms_preview.png",
+      "bytes": 90533,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664190000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/reconstruction.mat",
+      "bytes": 351438942,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794402662590000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664160000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/validation.json",
+      "bytes": 677,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664260000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma015/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664250000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/reconstruction.log",
+      "bytes": 5422,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696230000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/._reconstruction.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402664430000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/._reconstruction.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402685540000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/xrms_preview.png",
+      "bytes": 90074,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/reconstruction.mat",
+      "bytes": 351400251,
+      "allocated_bytes": 352321536,
+      "mtime_ns": 1794402694500000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/._xrms_preview.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696140000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/validation.json",
+      "bytes": 675,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696240000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/anisotropic_kernel_sweep_20261111_103727_973/seq714_sigma010/._validation.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794402696230000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sweep.log",
+      "bytes": 4116,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390784120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._sweep.log",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390731240000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_400.mat",
+      "bytes": 4678411,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794390747240000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._sigma_400.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390747100000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_500.mat",
+      "bytes": 4673256,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794390751310000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._sigma_500.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390751170000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sigma_610.mat",
+      "bytes": 4676997,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794390755730000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._sigma_610.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390755600000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/curve.csv",
+      "bytes": 19489,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390783900000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._curve.csv",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390783820000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/results.mat",
+      "bytes": 5239770,
+      "allocated_bytes": 5242880,
+      "mtime_ns": 1794390784090000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._results.mat",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390783910000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/summary.json",
+      "bytes": 895,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390784120000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._summary.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390784100000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/sweep_box_kernel.m",
+      "bytes": 5066,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855670000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._sweep_box_kernel.m",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855670000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/plot_curve.py",
+      "bytes": 2556,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855680000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._plot_curve.py",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855690000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/local_fit.json",
+      "bytes": 149,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855690000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._local_fit.json",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855700000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/width_error_curve.png",
+      "bytes": 160532,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855700000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._width_error_curve.png",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855710000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/interpretation.txt",
+      "bytes": 1678,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855720000000
+    },
+    {
+      "path": "/Volumes/Extreme SSD/261110/recon_results/box_phantom_kernel_curve_20261111_105211_216/._interpretation.txt",
+      "bytes": 4096,
+      "allocated_bytes": 1048576,
+      "mtime_ns": 1794390855710000000
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/.DS_Store",
+      "bytes": 6148,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1794213760301205213
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/manifest.toml",
+      "bytes": 979,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1793980300330836215
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/acquisition.mat",
+      "bytes": 96205908,
+      "allocated_bytes": 96206848,
+      "mtime_ns": 1793980299825831100
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/signal.png",
+      "bytes": 72714,
+      "allocated_bytes": 73728,
+      "mtime_ns": 1793980597535472597
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/phantom.png",
+      "bytes": 75243,
+      "allocated_bytes": 77824,
+      "mtime_ns": 1793980590822673119
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/validation.json",
+      "bytes": 506,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1793980597649848959
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/phantom.mat",
+      "bytes": 41057618,
+      "allocated_bytes": 41058304,
+      "mtime_ns": 1793979987700022820
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/recon_xrms/xrms_preview.png",
+      "bytes": 103761,
+      "allocated_bytes": 106496,
+      "mtime_ns": 1794002030504285990
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/recon_xrms/reconstruction.mat",
+      "bytes": 26001116,
+      "allocated_bytes": 26001408,
+      "mtime_ns": 1794002024173740497
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/recon_xrms/validation.json",
+      "bytes": 1676,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1794002033540728033
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/recon_xrms/xrms_slices.png",
+      "bytes": 70994,
+      "allocated_bytes": 73728,
+      "mtime_ns": 1794002032223141670
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_water/recon_xrms/reconstruction.log",
+      "bytes": 3427,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1794002033543040130
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/seq714.mat",
+      "bytes": 14051137,
+      "allocated_bytes": 14053376,
+      "mtime_ns": 1794227429389453036
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/results.json",
+      "bytes": 1231,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1794227429417893135
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/seq713.mat",
+      "bytes": 14127237,
+      "allocated_bytes": 14131200,
+      "mtime_ns": 1794227427551888622
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/seq712.mat",
+      "bytes": 14042752,
+      "allocated_bytes": 14045184,
+      "mtime_ns": 1794227425868580090
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/04_sequence_differences.png",
+      "bytes": 197402,
+      "allocated_bytes": 200704,
+      "mtime_ns": 1794228239733274426
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/03_insert_minus_baseline.png",
+      "bytes": 158778,
+      "allocated_bytes": 159744,
+      "mtime_ns": 1794228239732116621
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/05_sphere_A_closeups.png",
+      "bytes": 200111,
+      "allocated_bytes": 200704,
+      "mtime_ns": 1794228837704733432
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/render_spheres.py",
+      "bytes": 3515,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1794228837706315033
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/render_figures.py",
+      "bytes": 8071,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1794228239734107602
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/03_insert_minus_baseline_common_scale.png",
+      "bytes": 155229,
+      "allocated_bytes": 155648,
+      "mtime_ns": 1794228239732748545
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/phantom_design.txt",
+      "bytes": 1204,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1794228239733584512
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/02_matched_magnitude_slices.png",
+      "bytes": 287421,
+      "allocated_bytes": 290816,
+      "mtime_ns": 1794228239731673533
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/01_support_boundaries.png",
+      "bytes": 178642,
+      "allocated_bytes": 180224,
+      "mtime_ns": 1794228239730894858
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/output/seq712_714/shape_phantom/figures/05_sphere_B_closeups.png",
+      "bytes": 214430,
+      "allocated_bytes": 217088,
+      "mtime_ns": 1794228837705795236
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov/yj_seq920_t1w_libre_main_TR16.0ms_TE2.6ms_swap1_FA6_Traj4_nSeg44_nShot72_Fid0_diagnostic_4mm_rectfov.seq",
+      "bytes": 741424,
+      "allocated_bytes": 745472,
+      "mtime_ns": 1793724241452086488
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov/yj_seq920_t1w_libre_main_TR16.0ms_TE4.1ms_swap1_FA6_Traj4_nSeg44_nShot4485_Fid0_orbital_0p5mm_rectfov.seq",
+      "bytes": 51063542,
+      "allocated_bytes": 51064832,
+      "mtime_ns": 1793724386389203751
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov/yj_seq920_t1w_libre_main_TR16.0ms_TE4.1ms_swap1_FA6_Traj4_nSeg44_nShot4485_Fid0_orbital_0p5mm_rectfov_trajectory.mat",
+      "bytes": 8436062,
+      "allocated_bytes": 8437760,
+      "mtime_ns": 1793724386547905629
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/libre_3d_radial/output/rectfov/yj_seq920_t1w_libre_main_TR16.0ms_TE2.6ms_swap1_FA6_Traj4_nSeg44_nShot72_Fid0_diagnostic_4mm_rectfov_trajectory.mat",
+      "bytes": 125757,
+      "allocated_bytes": 126976,
+      "mtime_ns": 1793724241481557723
+    }
+  ],
+  "retained_nifti_verified": 12,
+  "protected_inputs_verified": true
+}

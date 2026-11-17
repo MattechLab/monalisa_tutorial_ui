@@ -1,131 +1,53 @@
-function [orientation_ok, xsos_all, ncc_all] = checkPrescanOrientation(readerBC, readerHC, readerMain, frameSize)
-% checkPrescanOrientation - Verify orientation consistency of prescans
-%
-% This function reconstructs sum-of-squares (SoS) images from prescan raw data
-% using provided reader objects, and checks whether the coil prescans
-% (HC prescan and main scan) are aligned with the body coil prescan (BC).
-%
-% It computes full-volume pixel-wise correlation for all 48 possible 
-% permutations and flips, prints the best matching orientation, and
-% optionally plots bar charts and central slice comparisons.
-%
-% Usage:
-%   orientation_ok = checkPrescanOrientation(readerBC, readerHC, readerMain)
-%   [orientation_ok, xsos_all, ncc_all] = checkPrescanOrientation(readerBC, readerHC, readerMain, 64)
-%
-% Inputs:
-%   readerBC    - bmRawDataReader for body coil prescan (reference)
-%   readerHC    - bmRawDataReader for high-res prescan
-%   readerMain  - bmRawDataReader for main scan
-%   frameSize   - optional, integer specifying reconstruction size (default 64)
-%
-% Outputs:
-%   orientation_ok - boolean flag: true if both HC and main scan are aligned to BC
-%   xsos_all       - cell array of SoS images {BC, HC, Main}
-%   ncc_all        - cell array of correlation values for scan2 & scan3
-
-if nargin < 4
-    frameSize = 64;
+function [orientation_ok,ncc_all,details] = checkPrescanOrientation(xsos_all,showFigures,options)
+%CHECKPRESCANORIENTATION Compare HC/main with BC over 48 permutations/flips.
+% xsos_all contains the normalized 64^3 SoS previews {BC,HC,main}.
+% This checks array axes and flips, not rigid-body registration or head motion.
+if nargin<2, showFigures=true; end
+if nargin<3, options=struct(); end
+if ~isfield(options,'minimumCorrelation'), options.minimumCorrelation=[]; end
+if ~isfield(options,'minimumMargin'), options.minimumMargin=[]; end
+if ~isempty(options.minimumCorrelation)
+    validateattributes(options.minimumCorrelation,{'numeric'},{'scalar','real','finite','>=',-1,'<=',1});
 end
-
-FrameSize = [frameSize, frameSize, frameSize];
-readers = {readerBC, readerHC, readerMain};
-numScans = 3;
-
-xsos_all = cell(numScans,1);
-ncc_all = cell(numScans-1,1); % only for scan2 and scan3
-orientation_ok = true;         % assume good orientation initially
-
-%% Step 1: Reconstruct SoS images
-for i = 1:numScans
-    reader = readers{i};
-    
-    % Compute coil images
-    [y, t, v] = bmCoilSense_nonCart_data(reader, FrameSize);
-    x = bmMathilda(y, t, v, [], FrameSize, FrameSize, [1 1 1]./reader.acquisitionParams.FoV);
-    
-    % Sum-of-squares
-    [nx, ny, nz, numCoils] = size(x);
-    xsos = zeros(nx, ny, nz, 'single');
-    for c = 1:numCoils
-        xsos = xsos + abs(x(:,:,:,c)).^2;
-    end
-    xsos = sqrt(xsos);
-    
-    % Log + percentile normalization
-    xsos = log1p(xsos);
-    lo = prctile(xsos(:),1);
-    hi = prctile(xsos(:),99);
-    xsos = (xsos - lo)/(hi-lo);
-    xsos = max(min(xsos,1),0);
-    
-    xsos_all{i} = xsos;
+if ~isempty(options.minimumMargin)
+    validateattributes(options.minimumMargin,{'numeric'},{'scalar','real','finite','nonnegative'});
 end
-
-%% Step 2: Orientation check (HC & Main relative to BC)
-ref = xsos_all{1};
-permsXYZ = perms(1:3);
-flips = dec2bin(0:7) - '0';
-
-for i = 2:numScans
-    mov = xsos_all{i};
-    bestScore = -Inf;
-    bestPerm  = [];
-    bestFlip  = [];
-    bestTmp   = [];
-    
-    allScores = zeros(size(permsXYZ,1)*size(flips,1),1);
-    labels = strings(length(allScores),1);
-    idx = 0;
-    
-    for p = 1:size(permsXYZ,1)
-        for f = 1:size(flips,1)
-            idx = idx + 1;
-            tmp = permute(mov, permsXYZ(p,:));
-            if flips(f,1), tmp = flip(tmp,1); end
-            if flips(f,2), tmp = flip(tmp,2); end
-            if flips(f,3), tmp = flip(tmp,3); end
-            
-            % Pixel-wise correlation
-            score = corr(ref(:), tmp(:));
-            allScores(idx) = score;
-            labels(idx) = sprintf('perm[%d%d%d]-flip[%d%d%d]', permsXYZ(p,:), flips(f,:));
-            
-            if score > bestScore
-                bestScore = score;
-                bestPerm  = permsXYZ(p,:);
-                bestFlip  = flips(f,:);
-                bestTmp   = tmp;
+details=struct('identityScore',{},'bestScore',{},'margin',{},'bestPermutation',{},'bestFlip',{},'passed',{});
+ref = xsos_all{1}; pp = perms(1:3); ff = dec2bin(0:7)-'0';
+orientation_ok = true; ncc_all = cell(2,1);
+for scan = 2:3
+    assert(isequal(size(ref),size(xsos_all{scan})),'Preview grids differ.');
+    bestScore=-Inf; index=0; values=zeros(48,1);
+    for p=1:6
+        for f=1:8
+            index=index+1; tmp=permute(xsos_all{scan},pp(p,:));
+            for axisIndex=1:3
+                if ff(f,axisIndex), tmp=flip(tmp,axisIndex); end
+            end
+            values(index)=corr(ref(:),tmp(:));
+            if isequal(pp(p,:),[1 2 3]) && isequal(ff(f,:),[0 0 0])
+                identityIndex=index;
+            end
+            if values(index)>bestScore
+                bestScore=values(index); bestPerm=pp(p,:); bestFlip=ff(f,:);
             end
         end
     end
-    
-    ncc_all{i-1} = allScores; % store all correlations
-    
-    % Plot bar chart of correlations
-    figure;
-    bar(allScores);
-    xticks(1:length(allScores));
-    xticklabels(labels);
-    xtickangle(90);
-    ylabel('Pixel-wise correlation');
-    title(sprintf('Scan %d: correlations for all 48 orientations', i));
-    grid on;
-    
-    % Warn & set orientation flag only if axes differ
-    if ~isequal(bestPerm, [1 2 3]) || ~isequal(bestFlip, [0 0 0])
-        warning('Scan %d orientation mismatch! Best perm [%d %d %d], flip [%d %d %d], corr=%.3f', ...
-            i, bestPerm, bestFlip, bestScore);
-        orientation_ok = false;
-        
-        % Show central slice comparison
-        k = round(size(ref,3)/2);
-        figure;
-        bmImage(cat(2, ref(:,:,k), bestTmp(:,:,k)));
-        title(sprintf('Reference vs Scan %d (best orientation)', i));
-    else
-        fprintf('Scan %d aligned (perm [1 2 3], flip [0 0 0], corr=%.3f)\n', i, bestScore);
+    assert(isfinite(bestScore),'Invalid orientation correlation.');
+    ncc_all{scan-1}=values;
+    aligned=isequal(bestPerm,[1 2 3]) && isequal(bestFlip,[0 0 0]);
+    ordered=sort(values,'descend'); margin=ordered(1)-ordered(2);
+    if ~isempty(options.minimumCorrelation), aligned=aligned && bestScore>=options.minimumCorrelation; end
+    if ~isempty(options.minimumMargin), aligned=aligned && margin>=options.minimumMargin; end
+    details(scan-1)=struct('identityScore',values(identityIndex),'bestScore',bestScore, ...
+        'margin',margin,'bestPermutation',bestPerm,'bestFlip',bestFlip,'passed',aligned);
+    orientation_ok=orientation_ok && aligned;
+    fprintf('Scan %d: axes=%s flips=%s correlation=%.6f\n', ...
+        scan,mat2str(bestPerm),mat2str(bestFlip),bestScore);
+    fprintf('Identity correlation=%.6f; best-to-runner-up margin=%.6f\n',values(identityIndex),margin);
+    if showFigures
+        figure; bar(values); xlabel('Permutation/flip combination'); ylabel('Correlation');
+        title(sprintf('Scan %d relative to BC',scan));
     end
 end
-
 end

@@ -1,0 +1,56 @@
+{
+  "source": "/Volumes/Extreme SSD/261110/recon_results/isotropic_scanner/run_20261111_174401_195",
+  "coordinate_mapping": "default Slicer orthogonal offsets: S=z, L=-x",
+  "half_voxel_display": "linear interpolation of two adjacent native planes",
+  "registration": false,
+  "purpose": "descriptive image comparison, not validated IQM ranking",
+  "flip_angle_factor": 2,
+  "flip_angle_basis": "User correction on 12 Nov 2026: double sequence-file rf_flip_deg",
+  "scans": [
+    {
+      "sequence": 701,
+      "TR_ms": 8.0,
+      "TE_ms": 2.875,
+      "FA_deg": 12,
+      "sequence_file_FA_deg": 6,
+      "duration_s": 176.22,
+      "maximum_xrms": 1.6618334086615505e-07
+    },
+    {
+      "sequence": 702,
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "FA_deg": 12,
+      "sequence_file_FA_deg": 6,
+      "duration_s": 147.62,
+      "maximum_xrms": 1.49583271991105e-07
+    },
+    {
+      "sequence": 703,
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "FA_deg": 16,
+      "sequence_file_FA_deg": 8,
+      "duration_s": 147.62,
+      "maximum_xrms": 1.2564184714847215e-07
+    },
+    {
+      "sequence": 704,
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "FA_deg": 14,
+      "sequence_file_FA_deg": 7,
+      "duration_s": 147.62,
+      "maximum_xrms": 1.3699008150069858e-07
+    },
+    {
+      "sequence": 705,
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "FA_deg": 20,
+      "sequence_file_FA_deg": 10,
+      "duration_s": 147.62,
+      "maximum_xrms": 1.1377614583807372e-07
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "existing_inventoried_files_unchanged": true,
+  "files_checked": 1103,
+  "original_engines_phantom_and_3T_entry_unchanged": true,
+  "earlier_7T_cells_unchanged": true,
+  "readme_changes": "Navigation paragraphs only",
+  "output_files_deleted_or_moved": 0,
+  "full_new_simulation_or_reconstruction_run": false,
+  "installed_files": [
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/run_water_batch.jl",
+      "sha256": "3a5ba0dee657a29762f56a99721a675bc8df6cdc66ba24453f088ecf1bb4c20b"
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/reconstruct_water_batch.m",
+      "sha256": "7c8407d53b05f564cd8fdaa2c66a21fdc8636369adaf9038d0bd0a196eb8a842"
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/KOMA_PIPELINE.md",
+      "sha256": "f0b98d4b26e873e2d37511375fa0d00d87681d6888185e4069c3be928bd2485e"
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/diagnostics/README.md",
+      "sha256": "a0cc0f0af84af8384a6064fe1811dd5faa0549860a256c251e99658b9fc83609"
+    },
+    {
+      "path": "/Users/cag/forclone/monalisa_tutorial_ui/run_anisotropic_scanner.m",
+      "sha256": "dd0d866a288634ac5bf1ad0739e4c472d2b47a5c868cb650db986622d3a7a099"
+    },
+    {
+      "path": "/Users/cag/forclone/monalisa_tutorial_ui/pipelines/anisotropic_scanner/README.md",
+      "sha256": "2b2e9e443d41d1a4ed44405d6ecbea37c9cce76d432933c35c1e22459ddfbad9"
+    },
+    {
+      "path": "/Users/cag/forclone/monalisa_tutorial_ui/main_script_7TTerraVE12U.m",
+      "sha256": "d9374fc39bb979734690a5a54c0dcc3e9d1445e5c6310bd9a61b388cb6edd1f2"
+    },
+    {
+      "path": "/Users/cag/forclone/pulseq4mreye_rectfov/simulation/koma_water/README.md",
+      "sha256": "f08c35ccd73c4463399f90ded9062284106710edfc0a0609b4a0346038ac8d3f"
+    },
+    {
+      "path": "/Users/cag/forclone/monalisa_tutorial_ui/ReadMe.md",
+      "sha256": "47129852d21e652489c84ea41502d7e94c6d6a6313c8591642774d68f6beda52"
+    }
+  ]
+}

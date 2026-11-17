@@ -1,296 +1,142 @@
-%% =========================================================================
-%  COILSENSE_SCRIPT
-%
-%  Purpose:
-%  --------
-%  Estimate non-Cartesian coil sensitivity maps using:
-%      - Body coil prescan (reference)
-%      - Head coil prescan
-%      - Main measurement (for orientation validation)
-%
-%  Workflow:
-%  ---------
-%  1. Select prescan sequence + raw data (body + head coils)
-%  2. Configure raw data readers
-%  3. Validate orientation consistency with main measurement
-%  4. Compute non-Cartesian gridding operators
-%  5. Generate automatic mask
-%  6. Estimate coil sensitivity maps (two-stage method)
-%
-%  Inputs:
-%  -------
-%  baseFolder : starting directory for file selection dialogs
-%
-%  Outputs:
-%  --------
-%  C1                  : Final coil sensitivity maps
-%  reconDir            : Reconstruction directory path
-%  prescan_seqParams   : Extracted prescan sequence parameters
-%  xsos_all            : Sum-of-squares prescan image (orientation check)
-%  ncc_all             : Normalized cross-correlation values
-%
-% =========================================================================
-function [C1, reconDir, prescan_seqParams, xsos_all, ncc_all] = coilsense_script(baseFolder)
-
-clc;
-
-%% =========================================================================
-%% === Dependency Reminder ===
-% The following toolboxes must be added to MATLAB path:
-%   - monalisa
-%   - pulseq
-%   - mapVBVD
-% =========================================================================
-warning('Reminder: please make sure monalisa, pulseq and mapVBVD are added to the path!');
-
-%% =========================================================================
-%% === 1. User Input: Prescan Files ===
-% User selects:
-%   - Prescan sequence file (*.seq)
-%   - Body coil raw data (*.dat)
-%   - Head coil raw data (*.dat)
-% =========================================================================
-
-disp('Select prescan sequence file');
-[seqName, seqFolder] = uigetfile('*.seq', ...
-    'Select prescan sequence file', baseFolder);
-
-if seqName == 0
-    error('Sequence file selection was cancelled');
+function [C1,reconDir,prescan_seqParams,xsos_all,ncc_all,infoMain] = coilsense_script(baseFolder,options)
+%COILSENSE_SCRIPT Select prescan/main files, review a mask, and estimate C.
+% setup_tutorial must be run first (main_script_3TPrismaXA60 cell 1).
+% Optional second argument is a struct with:
+%   files: prescanSeq, bodyRaw, headRaw, mainSeq, mainRaw (full paths)
+%   outputRoot: result root; maskFile: saved MAT containing logical mask
+%   showFigures: true by default; false requires maskFile
+%   prescanShotOff/mainShotOff: 14/50
+% Saved masks allow an approved calibration to be repeated without new choices.
+if nargin<2, options=struct(); end
+defaults=struct('files',struct(),'outputRoot','recon_results', ...
+    'maskFile','','showFigures',true,'prescanShotOff',14,'mainShotOff',50, ...
+    'nIter',5,'orientation',struct());
+fields=fieldnames(options);
+assert(all(ismember(fields,fieldnames(defaults))),'Unknown coil-sensitivity option.');
+for k=1:numel(fields), defaults.(fields{k})=options.(fields{k}); end
+options=defaults;
+validateattributes(options.nIter,{'numeric'},{'scalar','integer','positive'});
+stageTimer=tic; timings=struct();
+assert(options.showFigures || ~isempty(options.maskFile), ...
+    'A saved maskFile is required when showFigures=false.');
+if nargin<1 || isempty(baseFolder), baseFolder=pwd; end
+options.outputRoot=resolve_output_root(baseFolder,options.outputRoot);
+files=options.files;
+keys={'prescanSeq','bodyRaw','headRaw','mainSeq','mainRaw'};
+titles={'Select prescan sequence','Select body-coil prescan raw data', ...
+    'Select head-coil prescan raw data','Select main sequence','Select main raw data'};
+instructions = { ...
+    'Select the Pulseq sequence (.seq) used for the BC and HC PRESCANS.', ...
+    'Select the BODY-COIL (BC) prescan raw-data file (.dat), often named bc.dat.', ...
+    'Select the HEAD-COIL (HC) prescan raw-data file (.dat), often named hc.dat.', ...
+    'Select the MAIN scan Pulseq sequence (.seq) for the acquisition to reconstruct.', ...
+    'Select the MAIN raw-data file (.dat) matching the main sequence just selected.'};
+for k=1:numel(keys)
+    if ~isfield(files,keys{k}) || isempty(files.(keys{k}))
+        if endsWith(keys{k},'Seq'), filter='*.seq'; else, filter='*.dat'; end
+        selection_reminder(sprintf('Coil calibration %d/5: %s',k,titles{k}),instructions{k});
+        [name,folder]=uigetfile(filter,titles{k},baseFolder);
+        assert(~isequal(name,0),'File selection cancelled.');
+        files.(keys{k})=fullfile(folder,name);
+    end
+    assert(isfile(files.(keys{k})),'File not found (check symbolic links): %s',files.(keys{k}));
 end
+[~,stem]=fileparts(files.headRaw);
+token=regexp(stem,'MID\d+','match','once');
+if ~isempty(token), stem=token; end
+runName=[stem '_recon_C_' char(datetime('now','Format','yyyyMMdd_HHmmss_SSS'))];
+reconDir=fullfile(options.outputRoot,runName);
+assert(~isfolder(reconDir),'Output folder already exists.');
+mkdir(reconDir);
+diary(fullfile(reconDir,'calibration.log'));
+logCleanup=onCleanup(@() diary('off'));
+fprintf('Coil sensitivity output: %s\n',reconDir);
+N_u=[48 48 48]; previewGrid=[64 64 64]; xsos_all=cell(3,1);
 
-disp('Select bc data file');
-[bodyCoilFilename, rawDir] = uigetfile('*.dat', ...
-    'Select bc data file', baseFolder);
+fprintf('Preparing body-coil prescan...\n');
+[y,t,ve,acqBC,infoBC]=load_siemens_lowres(files.bodyRaw,files.prescanSeq,previewGrid,options.prescanShotOff);
+prescan_seqParams=infoBC.sequenceParams;
+xsos_all{1}=prescan_sos(y,t,ve,acqBC,previewGrid);
+dK_u=[1 1 1]./acqBC.FoV;
+[y_body,t_body,ve_body]=bmLowRes(y.',t,ve,N_u,dK_u); y_body=y_body.';
+clear y t ve
+timings.bodyPreviewSeconds=toc(stageTimer); stageTimer=tic;
 
-if bodyCoilFilename == 0
-    error('bodyCoil data file selection was cancelled');
-end
+fprintf('Preparing head-coil prescan...\n');
+[y,t,ve,acqHC,infoHC]=load_siemens_lowres(files.headRaw,files.prescanSeq,previewGrid,options.prescanShotOff,prescan_seqParams);
+assert(acqBC.FoV==acqHC.FoV,'BC/HC fields of view differ.');
+xsos_all{2}=prescan_sos(y,t,ve,acqHC,previewGrid);
+[y_surface,t_surface]=bmLowRes(y.',t,ve,N_u,dK_u); y_surface=y_surface.';
+assert(isequal(t_body,t_surface),'BC/HC trajectories differ.');
+clear y t ve t_surface
+timings.headPreviewSeconds=toc(stageTimer); stageTimer=tic;
 
-disp('Select hc data file');
-[arrayCoilFilename, rawDir] = uigetfile('*.dat', ...
-    'Select hc data file', baseFolder);
-
-if arrayCoilFilename == 0
-    error('arrayCoil data file selection was cancelled');
-end
-
-
-%% =========================================================================
-%% === 2. Initialize Reconstruction Directory ===
-% Construct reconstruction path:
-%   datasets  →  recon_results
-% Extract MID from filename
-% =========================================================================
-
-saveflag = 1;  % (Currently unused but kept for compatibility)
-
-% Full paths to selected raw data files
-bodyCoilFile  = fullfile(rawDir, bodyCoilFilename);
-arrayCoilFile = fullfile(rawDir, arrayCoilFilename);
-
-% Replace "datasets" folder with "recon_results"
-[parentDir, ~] = fileparts(rawDir);
-parts = strsplit(parentDir, filesep);
-parts(strcmp(parts,'datasets')) = {'recon_results'};
-parentDir = fullfile(filesep, parts{:});
-
-% Extract MID number (e.g. MID00012)
-token = regexp(arrayCoilFile, 'MID\d+', 'match');
-MID   = token{1};
-
-% Final reconstruction directory
-reconDir = fullfile(parentDir, [MID '_recon_C']);
-
-
-%% =========================================================================
-%% === 3. Load Prescan Sequence Parameters ===
-% Extract pulseq sequence parameters
-% =========================================================================
-
-seqFile = fullfile(seqFolder, seqName);
-seqParams = extract_seq_params(seqFile);
-prescan_seqParams = seqParams;   % Return to caller
-
-
-%% =========================================================================
-%% === 4. Configure Body Coil Reader ===
-% createRawDataReader unifies Siemens / ISMRMRD formats
-% =========================================================================
-
-bodyCoilreader = createRawDataReader(bodyCoilFile, true);
-
-% Optional sequence parameters (if available)
-if isfield(seqParams, 'nshot')
-    bodyCoilreader.acquisitionParams.nShot = seqParams.nshot;
-end
-
-if isfield(seqParams, 'nseg')
-    bodyCoilreader.acquisitionParams.nSeg = seqParams.nseg;
-end
-
-% Prescan configuration
-bodyCoilreader.acquisitionParams.nShot_off = 14;
-bodyCoilreader.acquisitionParams.traj_type = 'pulseq';
-bodyCoilreader.acquisitionParams.pulseqTrajFile_name = ...
-    strcat(seqFolder, seqName);
-
-% Validate pulseq hash consistency
-isMatch = check_hash(bodyCoilFile, ...
-    bodyCoilreader.acquisitionParams.pulseqTrajFile_name);
-
-
-%% =========================================================================
-%% === 5. Configure Head (Array) Coil Reader ===
-% Same configuration as body coil
-% =========================================================================
-
-arrayCoilReader = createRawDataReader(arrayCoilFile, true);
-
-if isfield(seqParams, 'nshot')
-    arrayCoilReader.acquisitionParams.nShot = seqParams.nshot;
-end
-
-if isfield(seqParams, 'nseg')
-    arrayCoilReader.acquisitionParams.nSeg = seqParams.nseg;
-end
-
-arrayCoilReader.acquisitionParams.nShot_off = 14;
-arrayCoilReader.acquisitionParams.traj_type = 'pulseq';
-arrayCoilReader.acquisitionParams.pulseqTrajFile_name = ...
-    strcat(seqFolder, seqName);
-
-isMatch = check_hash(arrayCoilFile, ...
-    arrayCoilReader.acquisitionParams.pulseqTrajFile_name);
-
-% Store for consistency reference
-nShotOff = arrayCoilReader.acquisitionParams.nShot_off;
-
-
-%% =========================================================================
-%% === 6. Orientation Consistency Check ===
-% Ensure prescan orientation matches main measurement
-% =========================================================================
-
-disp('Select main meas sequence file:');
-[measSeqName, seqFolder] = uigetfile('*.seq', ...
-    'Select main meas sequence file', baseFolder);
-
-if measSeqName == 0
-    error('Sequence file selection was cancelled');
-end
-
-seqFile = fullfile(seqFolder, measSeqName);
-measSeqParams = extract_seq_params(seqFile);
-
-disp('Select main raw data file:');
-[measFilename, rawDir] = uigetfile('*.dat', ...
-    'Select main raw data file', baseFolder);
-
-if measFilename == 0
-    error('measurement data file selection was cancelled');
-end
-
-measureFile = fullfile(rawDir, measFilename);
-reader = createRawDataReader(measureFile, 1);
-
-if isfield(measSeqParams, 'nshot')
-    reader.acquisitionParams.nShot = measSeqParams.nshot;
-end
-
-if isfield(measSeqParams, 'nseg')
-    reader.acquisitionParams.nSeg = measSeqParams.nseg;
-end
-
-reader.acquisitionParams.nShot_off = 20;
-reader.acquisitionParams.traj_type = 'pulseq';
-reader.acquisitionParams.pulseqTrajFile_name = seqFile;
-
-isMatch = check_hash(measureFile, ...
-    reader.acquisitionParams.pulseqTrajFile_name);
-
-% Compare orientations
-[orientation_ok, xsos_all, ncc_all] = ...
-    checkPrescanOrientation(bodyCoilreader, ...
-                            arrayCoilReader, ...
-                            reader, 64);
-
-bmImage(xsos_all);
-
-if orientation_ok
-    disp('Orientation check passed!');
+fprintf('Preparing main-scan orientation preview...\n');
+[y,t,ve,acqMain,infoMain]=load_siemens_lowres(files.mainRaw,files.mainSeq,previewGrid,options.mainShotOff);
+assert(acqHC.nCh==acqMain.nCh && acqHC.FoV==acqMain.FoV,'HC/main channel count or FoV differs.');
+xsos_all{3}=prescan_sos(y,t,ve,acqMain,previewGrid);
+clear y t ve
+timings.mainPreviewSeconds=toc(stageTimer); stageTimer=tic;
+[orientation_ok,ncc_all,orientationDetails]=checkPrescanOrientation(xsos_all,options.showFigures,options.orientation);
+metadataComparison=struct('headCoilSelectionEqual',[], 'headMainSliceGeometryEqual',[]);
+if ~isempty(infoHC.coilSelection) && ~isempty(infoMain.coilSelection)
+    metadataComparison.headCoilSelectionEqual=isequal(infoHC.coilSelection,infoMain.coilSelection);
+    fprintf('HC/main coil-selection metadata equal: %d (review any differences).\n',metadataComparison.headCoilSelectionEqual);
 else
-    error('Orientation check failed!')
+    fprintf('Coil-selection metadata unavailable: channel ordering is not verified.\n');
+end
+if ~isempty(infoHC.sliceGeometry) && ~isempty(infoMain.sliceGeometry)
+    metadataComparison.headMainSliceGeometryEqual=isequal(infoHC.sliceGeometry,infoMain.sliceGeometry);
+    fprintf('HC/main slice-geometry metadata equal: %d (review previews).\n',metadataComparison.headMainSliceGeometryEqual);
+end
+save(fullfile(reconDir,'orientation.mat'),'xsos_all','ncc_all','orientation_ok','orientationDetails','metadataComparison');
+assert(orientation_ok,'Orientation check failed. No sensitivity maps were calculated.');
+if options.showFigures
+    bmImage(xsos_all);
+    answer=questdlg('Accept BC/HC/main alignment after reviewing the matched previews? This is not a head-motion registration.', ...
+        'Review calibration alignment','Accept','Cancel','Cancel');
+    assert(strcmp(answer,'Accept'),'Calibration alignment not approved.');
 end
 
+fprintf('Constructing sensitivity gridding operators...\n');
+[Gn,Gu,Gut]=bmTraj2SparseMat(t_body,ve_body,N_u,dK_u);
+if isempty(options.maskFile)
+    mask=bmCoilSense_nonCart_mask_automatic(y_body,Gn,false);
+else
+    saved=load(options.maskFile,'mask');
+    assert(isfield(saved,'mask'),'maskFile must contain variable mask.');
+    mask=saved.mask;
+end
+assert(islogical(mask) && isequal(size(mask),N_u) && any(mask(:)) && ~all(mask(:)), ...
+    'The mask must be a nonempty, non-full logical 48^3 array.');
+if options.showFigures
+    bmImage(single(mask));
+    answer=questdlg('Use this final calibration mask?', ...
+        'Review calibration mask','Use mask','Cancel','Cancel');
+    assert(strcmp(answer,'Use mask'),'Calibration mask not approved.');
+end
+save(fullfile(reconDir,'mask.mat'),'mask');
+timings.reviewAndGriddingSeconds=toc(stageTimer); stageTimer=tic;
 
-%% =========================================================================
-%% === 7. Define Reconstruction Grid ===
-% Compute Cartesian grid parameters from FoV
-% =========================================================================
-
-dK_u = [1, 1, 1] ./ arrayCoilReader.acquisitionParams.FoV;
-N_u  = [48, 48, 48];   % Reconstruction grid size
-
-
-%% =========================================================================
-%% === 8. Compute Non-Cartesian Data & Trajectory ===
-% Extract k-space data and trajectory information
-% =========================================================================
-
-[y_body, t, ve] = bmCoilSense_nonCart_data(bodyCoilreader, N_u);
-y_surface       = bmCoilSense_nonCart_data(arrayCoilReader, N_u);
-
-
-%% =========================================================================
-%% === 9. Construct Gridding Operators ===
-% Gn  : Uniform → Non-uniform
-% Gu  : Non-uniform → Uniform
-% Gut : Transpose of Gu
-% =========================================================================
-
-[Gn, Gu, Gut] = bmTraj2SparseMat(t, ve, N_u, dK_u);
-
-
-%% =========================================================================
-%% === 10. Generate Object Mask ===
-% Automatically generate mask from body coil image
-% (Note: reported to fail on macOS in some cases)
-% =========================================================================
-
-mask = bmCoilSense_nonCart_mask_automatic(y_body, Gn, false);
-
-
-%% =========================================================================
-%% === 11. Coil Sensitivity Estimation ===
-%
-% Two-stage estimation:
-%
-%   Stage 1: Body coil reference
-%   Stage 2: Head coil primary estimate
-%   Stage 3: Iterative refinement
-%
-% =========================================================================
-
-close all;
-
-% --- Reference from body coil ---
-[y_ref, C_ref] = bmCoilSense_nonCart_ref(y_body, Gn, mask, []);
-
-% --- Primary estimate (array coil vs body reference) ---
-C_array_prime = bmCoilSense_nonCart_primary( ...
-                    y_surface, y_ref, C_ref, Gn, ve, mask);
-
-% --- Secondary refinement ---
-nIter = 5;
-[C1, x] = bmCoilSense_nonCart_secondary( ...
-                    y_surface, C_array_prime, ...
-                    y_ref, C_ref, ...
-                    Gn, Gu, Gut, ve, ...
-                    nIter, false);
-
-% Display final sensitivity maps
-bmImage(C1);
-
-%% =========================================================================
+fprintf('Estimating body-coil reference...\n');
+[y_ref,C_ref]=bmCoilSense_nonCart_ref(y_body,Gn,mask,[]);
+timings.referenceSeconds=toc(stageTimer); stageTimer=tic;
+fprintf('Estimating %d head-coil sensitivity maps...\n',acqHC.nCh);
+C_array_prime=bmCoilSense_nonCart_primary(y_surface,y_ref,C_ref,Gn,ve_body,mask);
+timings.primarySeconds=toc(stageTimer); stageTimer=tic;
+fprintf('Refining sensitivity maps (%d iterations)...\n',options.nIter);
+[C1,~]=bmCoilSense_nonCart_secondary(y_surface,C_array_prime,y_ref,C_ref,Gn,Gu,Gut,ve_body,options.nIter,false);
+timings.refinementSeconds=toc(stageTimer);
+disp(timings);
+assert(isequal(size(C1),[N_u acqHC.nCh]) && all(isfinite(C1(:))) && any(abs(C1(:))>0), ...
+    'Invalid sensitivity output.');
+settings=struct('gridSize',N_u,'nIter',options.nIter,'prescanShotOff',options.prescanShotOff, ...
+    'mainShotOff',options.mainShotOff,'maskFile',options.maskFile);
+save(fullfile(reconDir,'calibration.mat'),'files','settings','infoBC','infoHC','infoMain','prescan_seqParams','timings');
+header=prescan_seqParams.header; provenance=prescan_seqParams.headerprovenance;
+save(fullfile(reconDir,'prescan_sequence_header.mat'),'header','provenance');
+header=infoMain.sequenceParams.header; provenance=infoMain.sequenceParams.headerprovenance;
+save(fullfile(reconDir,'main_sequence_header.mat'),'header','provenance');
+if options.showFigures, bmImage(C1); end
+fprintf('C estimation complete: %s. Run the save cell next.\n',mat2str(size(C1)));
 end

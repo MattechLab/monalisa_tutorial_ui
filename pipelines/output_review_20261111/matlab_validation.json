@@ -1,0 +1,10 @@
+{
+  "scanner_seven_width_plan": true,
+  "scanner_default_plan": true,
+  "no_output_creation_in_check_mode": true,
+  "duplicate_widths_refused": true,
+  "existing_batch_refused": true,
+  "missing_simulated_inputs_refused": true,
+  "matlab_code_analysis_passed": true,
+  "new_bloch_or_scanner_reconstruction_run": false
+}

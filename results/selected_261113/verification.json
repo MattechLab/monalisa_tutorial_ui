@@ -1,0 +1,79 @@
+{
+  "batch": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367",
+  "checks": "Six exact source pairings; NIfTI dimensions/float32/spacing/affine/payload/MD5/gzip; finite max-normalized values; acquisition/reconstruction metadata; corrected reporting angles; unchanged sequence hashes and raw sizes; compact file inventory. MATLAB exporter exact read-back passed.",
+  "total_MiB": 272.51746559143066,
+  "results": [
+    {
+      "sequence": 702,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq702/xrms_normalized.nii.gz",
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "reported_FA_deg": 12,
+      "sequence_file_FA_deg": 6.0,
+      "MiB": 45.26309680938721,
+      "normalizationDivisor": 1.3874264936930558e-07,
+      "relative_restoration_error": 2.5838474915248503e-08,
+      "verified": true
+    },
+    {
+      "sequence": 706,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq706/xrms_normalized.nii.gz",
+      "TR_ms": 13.0,
+      "TE_ms": 2.875,
+      "reported_FA_deg": 12,
+      "sequence_file_FA_deg": 6.0,
+      "MiB": 45.89973258972168,
+      "normalizationDivisor": 2.2631620311130973e-07,
+      "relative_restoration_error": 2.4762963886889798e-08,
+      "verified": true
+    },
+    {
+      "sequence": 707,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq707/xrms_normalized.nii.gz",
+      "TR_ms": 13.0,
+      "TE_ms": 4.0,
+      "reported_FA_deg": 12,
+      "sequence_file_FA_deg": 6.0,
+      "MiB": 45.33758354187012,
+      "normalizationDivisor": 1.9229115366670158e-07,
+      "relative_restoration_error": 2.532945537611464e-08,
+      "verified": true
+    },
+    {
+      "sequence": 705,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq705/xrms_normalized.nii.gz",
+      "TR_ms": 6.7,
+      "TE_ms": 2.875,
+      "reported_FA_deg": 20,
+      "sequence_file_FA_deg": 10.0,
+      "MiB": 45.408512115478516,
+      "normalizationDivisor": 9.877825846160704e-08,
+      "relative_restoration_error": 2.5636018207657275e-08,
+      "verified": true
+    },
+    {
+      "sequence": 708,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq708/xrms_normalized.nii.gz",
+      "TR_ms": 13.0,
+      "TE_ms": 2.875,
+      "reported_FA_deg": 20,
+      "sequence_file_FA_deg": 10.0,
+      "MiB": 45.31007385253906,
+      "normalizationDivisor": 1.7176671462948434e-07,
+      "relative_restoration_error": 2.5863803022906235e-08,
+      "verified": true
+    },
+    {
+      "sequence": 709,
+      "nifti": "/Volumes/Extreme SSD/261113/recon_results/isotropic_scanner/run_seq702_705to709_20261113_155007_367/seq709/xrms_normalized.nii.gz",
+      "TR_ms": 13.0,
+      "TE_ms": 4.0,
+      "reported_FA_deg": 20,
+      "sequence_file_FA_deg": 10.0,
+      "MiB": 45.29846668243408,
+      "normalizationDivisor": 1.5310183698602486e-07,
+      "relative_restoration_error": 2.57946018307893e-08,
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "status": "exploratory localization only; no motion estimate or validated lens contrast",
+  "measurements": [
+    {
+      "eye": "positive_x",
+      "sequence": 701,
+      "candidate_mm": [
+        41,
+        -78,
+        -23
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.27853915095329285,
+        "1.5": 0.34144333004951477,
+        "2": 0.3502085208892822
+      }
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 702,
+      "candidate_mm": [
+        40,
+        -78,
+        -22
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.3150741457939148,
+        "1.5": 0.35399705171585083,
+        "2": 0.40354105830192566
+      }
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 704,
+      "candidate_mm": [
+        35,
+        -81,
+        -27
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.31484857201576233,
+        "1.5": 0.3330022990703583,
+        "2": 0.3563927710056305
+      }
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 703,
+      "candidate_mm": [
+        35,
+        -81,
+        -27
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.3431611955165863,
+        "1.5": 0.35367006063461304,
+        "2": 0.3585670590400696
+      }
+    },
+    {
+      "eye": "positive_x",
+      "sequence": 705,
+      "candidate_mm": [
+        35,
+        -81,
+        -27
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.39224106073379517,
+        "1.5": 0.411000519990921,
+        "2": 0.4213162362575531
+      }
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 701,
+      "candidate_mm": [
+        -36,
+        -85,
+        -26
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.2788752615451813,
+        "1.5": 0.28410181403160095,
+        "2": 0.29623374342918396
+      }
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 702,
+      "candidate_mm": [
+        -36,
+        -85,
+        -26
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.2510780394077301,
+        "1.5": 0.29513323307037354,
+        "2": 0.2963270843029022
+      }
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 704,
+      "candidate_mm": [
+        -36,
+        -84,
+        -28
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.508475124835968,
+        "1.5": 0.5236071348190308,
+        "2": 0.508475124835968
+      }
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 703,
+      "candidate_mm": [
+        -34,
+        -86,
+        -25
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.44515496492385864,
+        "1.5": 0.5143203735351562,
+        "2": 0.5517761707305908
+      }
+    },
+    {
+      "eye": "negative_x",
+      "sequence": 705,
+      "candidate_mm": [
+        -36,
+        -84,
+        -28
+      ],
+      "candidate_selected_by": "minimum after 0.7-voxel Gaussian smoothing within constrained search region",
+      "native_core_to_vitreous_median_by_radius_mm": {
+        "1": 0.4548405408859253,
+        "1.5": 0.4548405408859253,
+        "2": 0.4548405408859253
+      }
+    }
+  ]
+}

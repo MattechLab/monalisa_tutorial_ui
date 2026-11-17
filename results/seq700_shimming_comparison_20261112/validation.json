@@ -1,0 +1,10 @@
+{
+  "four_source_NIfTI_MD5s_and_affines_verified": true,
+  "processing_match_within_each_sequence": true,
+  "native_RF_simulation_magnetization_norm_check_passed": true,
+  "two_subpulse_timing_check_passed": true,
+  "Fourier_vs_rotation_null_checks_passed": true,
+  "B0_map_available": false,
+  "conclusion": "Strongly supported off-resonance LIBRE excitation cancellation under the altered X offset; exact voxelwise frequency assignment remains unverified.",
+  "statistical_scope": "Descriptive four-scan phantom comparison. No independent repeats, inferential tests, or voxelwise statistical significance claims. Band minima were selected from the observed profile."
+}
